@@ -1,9 +1,9 @@
 Qurb · языковой пакет: Узбекский язык (uz)
 Файл: translations_uz.db  ·  1.75 МБ
-Версия пакета: 4  ·  тег контента: main
+Версия пакета: 6  ·  тег контента: main
 
 Внутри (SQLite, данные — gzip):
-  system     — строки интерфейса: 1021 (экраны v114: 361, названия сур: 114)
+  system     — строки интерфейса: 1024 (экраны v114: 364, названия сур: 114)
   quran      — переводы Корана: t_uzbek_mansour.json, t_uzbek_rwwad.json
   dua, azkar, names99, holidays, policies — тексты разделов
   geo_cities, geo_countries — названия городов и стран

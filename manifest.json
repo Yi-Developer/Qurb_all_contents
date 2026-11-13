@@ -1,20 +1,20 @@
 {
   "format": "Qurb SQLite language packs",
-  "version": 4,
+  "version": 6,
   "description": "Один SQLite-файл на язык. Ресурсы внутри хранятся как gzip BLOB для компактности.",
   "languages": {
     "ar": {
       "folder": "Арабский язык",
       "database": "Арабский язык/translations_ar.db",
-      "resources": 4,
-      "builtin_sections": 5,
-      "size_bytes": 1026048,
+      "resources": 6,
+      "builtin_sections": 2,
+      "size_bytes": 1031168,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1385,
+      "system_strings": 1388,
       "quran_translations": [],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     },
     "en": {
@@ -26,13 +26,13 @@
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1436,
+      "system_strings": 1439,
       "quran_translations": [
         "t_english_hilali_khan.json",
         "t_english_rwwad.json",
         "t_english_saheeh.json"
       ],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     },
     "ru": {
@@ -44,12 +44,12 @@
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1045,
+      "system_strings": 1048,
       "quran_translations": [
         "t_russian_abuadel.json",
         "t_russian_kuliev.json"
       ],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     },
     "kk": {
@@ -61,11 +61,11 @@
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1045,
+      "system_strings": 1048,
       "quran_translations": [
         "t_kazakh_altai.json"
       ],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     },
     "ky": {
@@ -77,11 +77,11 @@
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1006,
+      "system_strings": 1009,
       "quran_translations": [
         "t_kyrgyz_hakimov.json"
       ],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     },
     "az": {
@@ -93,11 +93,11 @@
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1006,
+      "system_strings": 1009,
       "quran_translations": [
         "t_azeri_musayev.json"
       ],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     },
     "uz": {
@@ -109,12 +109,12 @@
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1021,
+      "system_strings": 1024,
       "quran_translations": [
         "t_uzbek_mansour.json",
         "t_uzbek_rwwad.json"
       ],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     },
     "tg": {
@@ -126,11 +126,11 @@
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1006,
+      "system_strings": 1009,
       "quran_translations": [
         "t_tajik_arifi.json"
       ],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     },
     "tr": {
@@ -138,17 +138,17 @@
       "database": "Турецкий язык/translations_tr.db",
       "resources": 11,
       "builtin_sections": 0,
-      "size_bytes": 1757184,
+      "size_bytes": 1758208,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1045,
+      "system_strings": 1048,
       "quran_translations": [
         "t_turkish_rwwad.json",
         "t_turkish_shaban.json",
         "t_turkish_shahin.json"
       ],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     },
     "ja": {
@@ -160,11 +160,11 @@
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1006,
+      "system_strings": 1009,
       "quran_translations": [
         "t_japanese_saeedsato.json"
       ],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     },
     "ko": {
@@ -176,12 +176,12 @@
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1006,
+      "system_strings": 1009,
       "quran_translations": [
         "t_korean_hamedchoi.json",
         "t_korean_rwwad.json"
       ],
-      "ui114_strings": 361,
+      "ui114_strings": 364,
       "ui114_missing": 0
     }
   },
