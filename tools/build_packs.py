@@ -25,7 +25,7 @@ import os
 import sqlite3
 import sys
 
-PACK_VERSION = 3
+PACK_VERSION = 4
 CONTENT_TAG = 'main'
 
 LANGS = {

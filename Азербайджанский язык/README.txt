@@ -1,9 +1,9 @@
 Qurb · языковой пакет: Азербайджанский язык (az)
-Файл: translations_az.db  ·  1.08 МБ
-Версия пакета: 3  ·  тег контента: main
+Файл: translations_az.db  ·  1.09 МБ
+Версия пакета: 4  ·  тег контента: main
 
 Внутри (SQLite, данные — gzip):
-  system     — строки интерфейса: 650 (экраны v114: 5, названия сур: 114)
+  system     — строки интерфейса: 1006 (экраны v114: 361, названия сур: 114)
   quran      — переводы Корана: t_azeri_musayev.json
   dua, azkar, names99, holidays, policies — тексты разделов
   geo_cities, geo_countries — названия городов и стран
