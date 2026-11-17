@@ -1,188 +1,199 @@
 {
   "format": "Qurb SQLite language packs",
-  "version": 7,
+  "version": 8,
   "description": "Один SQLite-файл на язык. Ресурсы внутри хранятся как gzip BLOB для компактности.",
   "languages": {
     "ar": {
       "folder": "Арабский язык",
       "database": "Арабский язык/translations_ar.db",
-      "resources": 6,
-      "builtin_sections": 2,
-      "size_bytes": 1031168,
+      "resources": 8,
+      "builtin_sections": 1,
+      "size_bytes": 1036288,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1388,
+      "system_strings": 1579,
       "quran_translations": [],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 1
     },
     "en": {
       "folder": "Английский язык",
       "database": "Английский язык/translations_en.db",
-      "resources": 10,
+      "resources": 11,
       "builtin_sections": 0,
-      "size_bytes": 1768448,
+      "size_bytes": 1774592,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1439,
+      "system_strings": 1739,
       "quran_translations": [
         "t_english_hilali_khan.json",
         "t_english_rwwad.json",
         "t_english_saheeh.json"
       ],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 0
     },
     "ru": {
       "folder": "Русский язык",
       "database": "Русский язык/translations_ru.db",
-      "resources": 9,
+      "resources": 11,
       "builtin_sections": 0,
-      "size_bytes": 2136064,
+      "size_bytes": 2150400,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1048,
+      "system_strings": 1348,
       "quran_translations": [
         "t_russian_abuadel.json",
         "t_russian_kuliev.json"
       ],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 0
     },
     "kk": {
       "folder": "Казахский язык",
       "database": "Казахский язык/translations_kk.db",
       "resources": 10,
       "builtin_sections": 0,
-      "size_bytes": 1416192,
+      "size_bytes": 1419264,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1048,
+      "system_strings": 1348,
       "quran_translations": [
         "t_kazakh_altai.json"
       ],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 0
     },
     "ky": {
       "folder": "Кыргызский язык",
       "database": "Кыргызский язык/translations_ky.db",
       "resources": 10,
       "builtin_sections": 0,
-      "size_bytes": 1510400,
+      "size_bytes": 1514496,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1009,
+      "system_strings": 1309,
       "quran_translations": [
         "t_kyrgyz_hakimov.json"
       ],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 0
     },
     "az": {
       "folder": "Азербайджанский язык",
       "database": "Азербайджанский язык/translations_az.db",
       "resources": 9,
       "builtin_sections": 0,
-      "size_bytes": 1143808,
+      "size_bytes": 1147904,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1009,
+      "system_strings": 1309,
       "quran_translations": [
         "t_azeri_musayev.json"
       ],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 0
     },
     "uz": {
       "folder": "Узбекский язык",
       "database": "Узбекский язык/translations_uz.db",
       "resources": 10,
       "builtin_sections": 0,
-      "size_bytes": 1833984,
+      "size_bytes": 1838080,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1024,
+      "system_strings": 1324,
       "quran_translations": [
         "t_uzbek_mansour.json",
         "t_uzbek_rwwad.json"
       ],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 0
     },
     "tg": {
       "folder": "Таджикский язык",
       "database": "Таджикский язык/translations_tg.db",
       "resources": 10,
       "builtin_sections": 0,
-      "size_bytes": 1502208,
+      "size_bytes": 1506304,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1009,
+      "system_strings": 1309,
       "quran_translations": [
         "t_tajik_arifi.json"
       ],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 0
     },
     "tr": {
       "folder": "Турецкий язык",
       "database": "Турецкий язык/translations_tr.db",
       "resources": 11,
       "builtin_sections": 0,
-      "size_bytes": 1758208,
+      "size_bytes": 1762304,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1048,
+      "system_strings": 1348,
       "quran_translations": [
         "t_turkish_rwwad.json",
         "t_turkish_shaban.json",
         "t_turkish_shahin.json"
       ],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 0
     },
     "ja": {
       "folder": "Японский язык",
       "database": "Японский язык/translations_ja.db",
       "resources": 9,
       "builtin_sections": 0,
-      "size_bytes": 1300480,
+      "size_bytes": 1304576,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1009,
+      "system_strings": 1309,
       "quran_translations": [
         "t_japanese_saeedsato.json"
       ],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 0
     },
     "ko": {
       "folder": "Корейский язык",
       "database": "Корейский язык/translations_ko.db",
       "resources": 10,
       "builtin_sections": 0,
-      "size_bytes": 1604608,
+      "size_bytes": 1608704,
       "dua_entries": 104,
       "geo_countries": 244,
       "geo_cities": 15090,
-      "system_strings": 1009,
+      "system_strings": 1309,
       "quran_translations": [
         "t_korean_hamedchoi.json",
         "t_korean_rwwad.json"
       ],
       "ui114_strings": 364,
-      "ui114_missing": 0
+      "ui114_missing": 0,
+      "system_missing": 0
     }
   },
   "dua_version": "104",
