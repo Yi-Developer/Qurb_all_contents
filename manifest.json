@@ -1,6 +1,6 @@
 {
   "format": "Qurb SQLite language packs",
-  "version": 10,
+  "version": 11,
   "description": "Один SQLite-файл на язык. Ресурсы внутри хранятся как gzip BLOB для компактности.",
   "languages": {
     "ar": {
@@ -42,7 +42,7 @@
       "database": "Русский язык/translations_ru.db",
       "resources": 11,
       "builtin_sections": 0,
-      "size_bytes": 2173952,
+      "size_bytes": 2172928,
       "dua_entries": 246,
       "geo_countries": 244,
       "geo_cities": 15090,
@@ -94,7 +94,7 @@
       "database": "Азербайджанский язык/translations_az.db",
       "resources": 9,
       "builtin_sections": 0,
-      "size_bytes": 1172480,
+      "size_bytes": 1173504,
       "dua_entries": 246,
       "geo_countries": 244,
       "geo_cities": 15090,
@@ -111,7 +111,7 @@
       "database": "Узбекский язык/translations_uz.db",
       "resources": 10,
       "builtin_sections": 0,
-      "size_bytes": 1862656,
+      "size_bytes": 1863680,
       "dua_entries": 246,
       "geo_countries": 244,
       "geo_cities": 15090,
@@ -165,7 +165,7 @@
       "database": "Японский язык/translations_ja.db",
       "resources": 9,
       "builtin_sections": 0,
-      "size_bytes": 1329152,
+      "size_bytes": 1328128,
       "dua_entries": 246,
       "geo_countries": 244,
       "geo_cities": 15090,
