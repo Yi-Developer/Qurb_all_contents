@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-07-06",
+  "countries": {
+    "file": "geo/countries.json.gz",
+    "count": 244,
+    "format": "{\"EnglishName\":{\"ru\":..,\"ar\":..,\"kk\":..,\"tr\":..,\"ja\":..,\"ko\":..}}",
+    "size_gz": 10533
+  },
+  "cities": {
+    "format": "{\"EnglishName\":\"LocalizedName\"}",
+    "note": "Languages not listed (en/tr/uz/az) use the original Latin name; no pack needed.",
+    "languages": [
+      {
+        "lang": "ar",
+        "file": "geo/cities/ar.json.gz",
+        "cities": 15142,
+        "size_gz": 165075
+      },
+      {
+        "lang": "az",
+        "file": "geo/cities/az.json.gz",
+        "cities": 2169,
+        "size_gz": 24635
+      },
+      {
+        "lang": "ja",
+        "file": "geo/cities/ja.json.gz",
+        "cities": 4322,
+        "size_gz": 51044
+      },
+      {
+        "lang": "kk",
+        "file": "geo/cities/kk.json.gz",
+        "cities": 10654,
+        "size_gz": 117688
+      },
+      {
+        "lang": "ky",
+        "file": "geo/cities/ky.json.gz",
+        "cities": 12584,
+        "size_gz": 145761
+      },
+      {
+        "lang": "ru",
+        "file": "geo/cities/ru.json.gz",
+        "cities": 15142,
+        "size_gz": 173852
+      },
+      {
+        "lang": "tg",
+        "file": "geo/cities/tg.json.gz",
+        "cities": 12245,
+        "size_gz": 140770
+      },
+      {
+        "lang": "tr",
+        "file": "geo/cities/tr.json.gz",
+        "cities": 2306,
+        "size_gz": 27752
+      },
+      {
+        "lang": "uz",
+        "file": "geo/cities/uz.json.gz",
+        "cities": 1737,
+        "size_gz": 20679
+      },
+      {
+        "lang": "ko",
+        "file": "geo/cities/ko.json.gz",
+        "cities": 15142,
+        "size_gz": 169089
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-07-06",
+  "cities": {
+    "file": "geo/cities.json.gz",
+    "count": 15423,
+    "with_translations": 15382,
+    "capitals": 241,
+    "languages": [
+      "en",
+      "ru",
+      "ar",
+      "kk",
+      "ky",
+      "az",
+      "uz",
+      "tg",
+      "tr",
+      "ja"
+    ],
+    "format": "[{\"name\",\"country\",\"lat\",\"lon\",\"pop\",\"capital\",\"tr\":{lang:name}}] — en = поле name, сортировка по населению убыв.",
+    "note": "Отсутствующий перевод => используйте name (английский оригинал)."
+  },
+  "by_country": {
+    "dir": "geo/by_country/",
+    "note": "Пусто. Сюда позже добавляются детальные города по странам: <ISO>.json.gz"
+  }
+}

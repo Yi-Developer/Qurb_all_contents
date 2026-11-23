@@ -1,9 +1,9 @@
 Qurb · языковой пакет: Русский язык (ru)
-Файл: translations_ru.db  ·  2.06 МБ
+Файл: translations_ru.db  ·  2.07 МБ
 Версия пакета: 9  ·  тег контента: main
 
 Внутри (SQLite, данные — gzip):
-  system     — строки интерфейса: 1348 (экраны v114: 364, названия сур: 114)
+  system     — строки интерфейса: 1351 (экраны v114: 367, названия сур: 114)
   quran      — переводы Корана: t_russian_abuadel.json, t_russian_kuliev.json
   dua, azkar (азкары, утро и вечер, хадисы), names99, holidays,
   policies — тексты разделов

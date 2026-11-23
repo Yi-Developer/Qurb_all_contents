@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qurb — Политика конфиденциальности / Privacy Policy</title>
+<meta name="description" content="Политика конфиденциальности приложения Qurb на 11 языках. Privacy Policy for the Qurb app.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600&family=Inter:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#15201c; --ink-soft:#4d5c56; --rule:#dcdfd6;
+    --paper:#f7f6f1; --leaf:#1f5c46; --gold:#a8823c; --measure:36rem;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --ink:#e8e6df; --ink-soft:#9aa39d; --rule:#2c3531; --paper:#121613; --leaf:#7fbfa2; --gold:#c9a45f; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font:400 1rem/1.7 "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding:0 1.5rem 6rem;
+  }
+  .wrap{max-width:var(--measure); margin:0 auto}
+
+  header{padding:4.5rem 0 2rem; border-bottom:1px solid var(--rule)}
+  .mark{font-family:"Cormorant", Georgia, serif; font-weight:600; font-size:2.75rem; line-height:1; letter-spacing:.01em; margin:0}
+  .mark::after{content:""; display:block; width:2.5rem; height:2px; background:var(--gold); margin-top:1.1rem}
+  .sub{margin:1.3rem 0 0; color:var(--ink-soft); font-size:.95rem}
+  .meta{margin:.35rem 0 0; color:var(--ink-soft); font-size:.8rem; letter-spacing:.06em; text-transform:uppercase}
+
+  .langs{display:flex; flex-wrap:wrap; gap:.3rem; margin:1.75rem 0 0}
+  .lang-btn{
+    font:500 .78rem/1 "Inter",sans-serif; letter-spacing:.04em;
+    background:none; border:1px solid var(--rule); color:var(--ink-soft);
+    padding:.55rem .8rem; border-radius:2px; cursor:pointer; transition:.15s;
+  }
+  .lang-btn:hover{border-color:var(--leaf); color:var(--ink)}
+  .lang-btn.active{background:var(--leaf); border-color:var(--leaf); color:var(--paper)}
+  .lang-btn:focus-visible{outline:2px solid var(--gold); outline-offset:2px}
+
+  .policy{display:none}
+  .policy.active{display:block}
+  .policy[dir="rtl"]{ font-family:"Noto Naskh Arabic","Inter",serif; }
+  .policy[dir="rtl"] ul{padding-left:0; padding-right:1.1rem}
+  .policy[dir="rtl"] .pull{border-left:0; border-right:2px solid var(--gold); padding:.15rem 1.2rem .15rem 0}
+  .policy[dir="rtl"] h2 .num{margin-right:0; margin-left:.7rem}
+  .policy[dir="rtl"] code{direction:ltr; unicode-bidi:embed}
+
+  section{padding:2.6rem 0 0}
+  h2{font:500 .78rem/1.4 "Inter",sans-serif; letter-spacing:.11em; text-transform:uppercase; color:var(--leaf); margin:0 0 .9rem}
+  .policy[lang="ar"] h2, .policy[lang="ja"] h2, .policy[lang="ko"] h2{text-transform:none; letter-spacing:.04em; font-size:.9rem}
+  h2 .num{color:var(--ink-soft); margin-right:.7rem; font-variant-numeric:tabular-nums}
+  p{margin:0 0 1rem}
+  ul{margin:0 0 1rem; padding-left:1.1rem}
+  li{margin:0 0 .45rem}
+  strong{font-weight:600}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.86em; color:var(--ink-soft)}
+  a{color:var(--leaf); text-underline-offset:3px}
+
+  .pull{
+    border-left:2px solid var(--gold); padding:.15rem 0 .15rem 1.2rem; margin:0 0 1.2rem;
+    font-family:"Cormorant",Georgia,serif; font-size:1.4rem; line-height:1.45; color:var(--ink);
+  }
+  .policy[lang="ar"] .pull, .policy[lang="ja"] .pull, .policy[lang="ko"] .pull{font-family:inherit; font-size:1.1rem; font-weight:500}
+  footer{margin-top:3.5rem; padding-top:1.6rem; border-top:1px solid var(--rule); color:var(--ink-soft); font-size:.85rem}
+  [hidden]{display:none !important}
+  @media (max-width:480px){ .mark{font-size:2.1rem} header{padding-top:3rem} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1 class="mark">Qurb</h1>
+  <p class="sub" data-h="ru">Политика конфиденциальности</p>
+  <p class="meta" data-h="ru">Дата вступления в силу: 10 июля 2026</p>
+  <p class="sub" data-h="en" hidden>Privacy Policy</p>
+  <p class="meta" data-h="en" hidden>Effective date: 10 July 2026</p>
+  <p class="sub" data-h="ar" hidden>سياسة الخصوصية</p>
+  <p class="meta" data-h="ar" hidden>تاريخ السريان: 10 يوليو 2026</p>
+  <p class="sub" data-h="kk" hidden>Құпиялылық саясаты</p>
+  <p class="meta" data-h="kk" hidden>Күшіне енген күні: 2026 жылғы 10 шілде</p>
+  <p class="sub" data-h="tr" hidden>Gizlilik Politikası</p>
+  <p class="meta" data-h="tr" hidden>Yürürlük tarihi: 10 Temmuz 2026</p>
+  <p class="sub" data-h="uz" hidden>Maxfiylik siyosati</p>
+  <p class="meta" data-h="uz" hidden>Kuchga kirish sanasi: 2026-yil 10-iyul</p>
+  <p class="sub" data-h="az" hidden>Məxfilik siyasəti</p>
+  <p class="meta" data-h="az" hidden>Qüvvəyə minmə tarixi: 10 iyul 2026</p>
+  <p class="sub" data-h="ky" hidden>Купуялык саясаты</p>
+  <p class="meta" data-h="ky" hidden>Күчүнө кирген күнү: 2026-жылдын 10-июлу</p>
+  <p class="sub" data-h="tg" hidden>Сиёсати махфият</p>
+  <p class="meta" data-h="tg" hidden>Санаи эътибор пайдо кардан: 10 июли соли 2026</p>
+  <p class="sub" data-h="ja" hidden>プライバシーポリシー</p>
+  <p class="meta" data-h="ja" hidden>発効日: 2026年7月10日</p>
+  <p class="sub" data-h="ko" hidden>개인정보 처리방침</p>
+  <p class="meta" data-h="ko" hidden>시행일: 2026년 7월 10일</p>
+  <nav class="langs" aria-label="Language">
+  <button type="button" class="lang-btn active" data-lang="ru">Русский</button>
+  <button type="button" class="lang-btn" data-lang="en">English</button>
+  <button type="button" class="lang-btn" data-lang="ar">العربية</button>
+  <button type="button" class="lang-btn" data-lang="kk">Қазақша</button>
+  <button type="button" class="lang-btn" data-lang="tr">Türkçe</button>
+  <button type="button" class="lang-btn" data-lang="uz">Oʻzbekcha</button>
+  <button type="button" class="lang-btn" data-lang="az">Azərbaycanca</button>
+  <button type="button" class="lang-btn" data-lang="ky">Кыргызча</button>
+  <button type="button" class="lang-btn" data-lang="tg">Тоҷикӣ</button>
+  <button type="button" class="lang-btn" data-lang="ja">日本語</button>
+  <button type="button" class="lang-btn" data-lang="ko">한국어</button>
+  </nav>
+</header>
+
+<main class="policy active" id="p-ru" lang="ru" dir="ltr">
+  <section>
+    <p class="pull">Qurb не собирает ваши персональные данные, не показывает рекламу и не передаёт информацию третьим лицам.</p>
+    <p>Эта политика описывает, как приложение Qurb («приложение») обращается с информацией. Пользуясь приложением, вы принимаете условия, изложенные ниже.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>Какие данные мы не собираем</h2>
+    <p>Мы не запрашиваем регистрацию и не создаём учётных записей. Приложение не собирает и не передаёт нам:</p>
+    <ul>
+      <li>имя, адрес электронной почты, номер телефона;</li>
+      <li>контакты, фотографии, файлы, календарь;</li>
+      <li>историю чтения, закладки, заметки и любую другую активность;</li>
+      <li>рекламные идентификаторы устройства.</li>
+    </ul>
+    <p>В приложении нет аналитики, трекеров и рекламных SDK.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Геолокация</h2>
+    <p>Приложение запрашивает доступ к местоположению с единственной целью: рассчитать время намаза и направление киблы. Разрешение необязательно — город можно указать вручную.</p>
+    <ul>
+      <li>Время намаза вычисляется на самом устройстве по астрономическим формулам. Координаты для этого никуда не отправляются.</li>
+      <li>Направление киблы вычисляется на устройстве по координатам и данным компаса.</li>
+      <li>Чтобы показать название вашего города, приложение обращается к системному геокодеру телефона (служба Google или Apple). В этот момент координаты обрабатываются операционной системой согласно политике её разработчика. Без сети название подбирается из встроенной базы городов, офлайн.</li>
+    </ul>
+    <p>Ваше местоположение хранится только в памяти вашего устройства. У нас нет серверов, на которых оно могло бы сохраняться.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Данные на вашем устройстве</h2>
+    <p>Закладки, личные заметки, избранные дуа и азкары, счётчики повторений, выбранный язык, тема и настройки шрифта хранятся локально. Они не покидают телефон и удаляются вместе с приложением. Мы не имеем к ним доступа и не можем их восстановить.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Сетевые запросы и сторонние сервисы</h2>
+    <p>Арабский текст Корана, дуа и время намаза работают офлайн. Интернет требуется, чтобы скачать дополнительные материалы, после чего они также доступны без сети. При таких запросах сторонний сервис технически видит IP-адрес вашего устройства — как при открытии любого сайта. Мы не передаём этим сервисам никакой информации о вас.</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — переводы смыслов Корана и служебные данные;</li>
+      <li><code>everyayah.com</code> — аудиочтение Корана;</li>
+      <li><code>hadeethenc.com</code> — тексты дуа и азкаров с указанием источника хадиса;</li>
+      <li><code>images.unsplash.com</code> — фоновые изображения оформления.</li>
+    </ul>
+    <p>Эти сервисы управляются независимыми организациями и действуют по собственным политикам конфиденциальности. Приложение также может использовать сервисы Google Play для установки и обновлений.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Уведомления</h2>
+    <p>Азан, напоминания о времени намаза и о приближении важных дат формируются локально на устройстве. Мы не используем push-уведомления с сервера. Отключить их можно в настройках приложения или системы.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Дети</h2>
+    <p>Приложение подходит для любого возраста и не собирает персональные данные ни у кого, включая детей.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>Ваши права</h2>
+    <p>Поскольку мы не храним ваших данных, нам нечего вам передать или удалить по запросу. Чтобы стереть все данные приложения, удалите его с устройства или очистите данные приложения в системных настройках. Отозвать доступ к геолокации можно в любой момент в настройках телефона.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>Изменения политики</h2>
+    <p>Если поведение приложения изменится, мы обновим эту страницу и дату вступления в силу вверху. Существенные изменения будут отмечены в описании обновления в магазине приложений.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>Связаться с нами</h2>
+    <p>Вопросы о конфиденциальности, замечания и пожелания присылайте на <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> Мы отвечаем на все письма.</p>
+  </section>
+
+  <footer>Qurb · Политика конфиденциальности · Обновлено 10 июля 2026</footer>
+</main>
+
+<main class="policy" id="p-en" lang="en" dir="ltr">
+  <section>
+    <p class="pull">Qurb does not collect your personal data, does not show ads, and does not share information with third parties.</p>
+    <p>This policy explains how the Qurb app (“the app”) handles information. By using the app, you agree to the terms below.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>What we do not collect</h2>
+    <p>The app has no sign-up and no user accounts. It does not collect or send us:</p>
+    <ul>
+      <li>your name, email address, or phone number;</li>
+      <li>contacts, photos, files, or calendar;</li>
+      <li>reading history, bookmarks, notes, or any other activity;</li>
+      <li>advertising identifiers.</li>
+    </ul>
+    <p>The app contains no analytics, no trackers, and no advertising SDKs.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Location</h2>
+    <p>The app requests location access for one purpose: to calculate prayer times and the direction of the qibla. The permission is optional — you can enter your city manually instead.</p>
+    <ul>
+      <li>Prayer times are calculated on your device using astronomical formulas. Your coordinates are not sent anywhere for this.</li>
+      <li>The qibla direction is calculated on your device from your coordinates and compass data.</li>
+      <li>To display your city name, the app calls your phone’s system geocoder (a Google or Apple service). At that moment your coordinates are handled by the operating system under its own provider’s policy. With no network, the city name is matched against a database bundled inside the app, entirely offline.</li>
+    </ul>
+    <p>Your location is kept only in your device’s memory. We operate no servers where it could be stored.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Data on your device</h2>
+    <p>Bookmarks, personal notes, favourite duas and adhkar, repetition counters, your chosen language, theme, and font settings are stored locally. They never leave your phone and are removed when you uninstall the app. We cannot access or restore them.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Network requests and third-party services</h2>
+    <p>The Arabic Qur’an, duas, and prayer times work offline. An internet connection is needed only to download additional material, which is then available offline as well. During such a request, the third-party service technically sees your device’s IP address, as it would when you open any website. We send these services no information about you.</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — Qur’an translations and supporting data;</li>
+      <li><code>everyayah.com</code> — Qur’an audio recitation;</li>
+      <li><code>hadeethenc.com</code> — dua and adhkar texts with hadith sources;</li>
+      <li><code>images.unsplash.com</code> — background imagery.</li>
+    </ul>
+    <p>These services are run by independent organisations and operate under their own privacy policies. The app may also use Google Play services for installation and updates.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Notifications</h2>
+    <p>The adhan, prayer-time reminders, and notices about upcoming Islamic dates are generated locally on your device. We do not use server-sent push notifications. You can turn them off in the app or in your system settings.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Children</h2>
+    <p>The app is suitable for all ages and collects no personal data from anyone, including children.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>Your rights</h2>
+    <p>Because we hold none of your data, there is nothing for us to hand over or delete on request. To erase all app data, uninstall the app or clear its storage in your system settings. You may revoke location access at any time from your phone’s settings.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>Changes to this policy</h2>
+    <p>If the app’s behaviour changes, we will update this page and the effective date above. Material changes will be noted in the release notes on the app store.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>Contact us</h2>
+    <p>Send privacy questions, corrections, or suggestions to <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> We reply to every message.</p>
+  </section>
+
+  <footer>Qurb · Privacy Policy · Updated 10 July 2026</footer>
+</main>
+
+<main class="policy" id="p-ar" lang="ar" dir="rtl">
+  <section>
+    <p class="pull">لا يجمع تطبيق Qurb بياناتك الشخصية، ولا يعرض إعلانات، ولا يشارك معلوماتك مع أطراف ثالثة.</p>
+    <p>توضّح هذه السياسة كيفية تعامل تطبيق Qurb («التطبيق») مع المعلومات. باستخدامك التطبيق فإنك توافق على الشروط الواردة أدناه.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>البيانات التي لا نجمعها</h2>
+    <p>لا يتطلب التطبيق تسجيلاً ولا ينشئ حسابات. وهو لا يجمع ولا يرسل إلينا:</p>
+    <ul>
+      <li>الاسم أو البريد الإلكتروني أو رقم الهاتف؛</li>
+      <li>جهات الاتصال أو الصور أو الملفات أو التقويم؛</li>
+      <li>سجل القراءة أو العلامات المرجعية أو الملاحظات أو أي نشاط آخر؛</li>
+      <li>معرّفات الإعلانات الخاصة بالجهاز.</li>
+    </ul>
+    <p>لا يحتوي التطبيق على أدوات تحليل أو تتبّع أو حزم إعلانية.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>الموقع الجغرافي</h2>
+    <p>يطلب التطبيق إذن الوصول إلى الموقع لغرض واحد فقط: حساب أوقات الصلاة واتجاه القبلة. هذا الإذن اختياري — إذ يمكنك إدخال اسم مدينتك يدويًا.</p>
+    <ul>
+      <li>تُحسب أوقات الصلاة على جهازك نفسه بمعادلات فلكية، ولا تُرسَل إحداثياتك إلى أي جهة لهذا الغرض.</li>
+      <li>يُحسب اتجاه القبلة على جهازك اعتمادًا على الإحداثيات وبيانات البوصلة.</li>
+      <li>لعرض اسم مدينتك، يستدعي التطبيق خدمة تحديد المواقع المدمجة في هاتفك (خدمة من Google أو Apple). عندئذٍ يعالج نظام التشغيل إحداثياتك وفق سياسة مطوّره. وعند انقطاع الشبكة يُستخرج اسم المدينة من قاعدة بيانات مدمجة داخل التطبيق دون اتصال.</li>
+    </ul>
+    <p>يُحفظ موقعك في ذاكرة جهازك فقط. ولا نملك خوادم يمكن أن يُخزَّن عليها.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>البيانات المحفوظة على جهازك</h2>
+    <p>تُحفظ العلامات المرجعية والملاحظات الشخصية والأدعية والأذكار المفضلة وعدّادات التكرار واللغة المختارة والسمة وإعدادات الخط محليًا على جهازك. ولا تغادر هاتفك، وتُحذف مع حذف التطبيق. لا يمكننا الوصول إليها ولا استعادتها.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>طلبات الشبكة وخدمات الأطراف الثالثة</h2>
+    <p>يعمل نص القرآن العربي والأدعية وأوقات الصلاة دون اتصال. ويلزم الإنترنت فقط لتنزيل المواد الإضافية، التي تصبح بعدها متاحة دون اتصال أيضًا. وأثناء هذه الطلبات يرى مزوّد الخدمة عنوان IP الخاص بجهازك تقنيًا، كما يحدث عند فتح أي موقع. ولا نرسل إلى هذه الخدمات أي معلومات عنك.</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — ترجمات معاني القرآن والبيانات المساندة؛</li>
+      <li><code>everyayah.com</code> — التلاوة الصوتية للقرآن؛</li>
+      <li><code>hadeethenc.com</code> — نصوص الأدعية والأذكار مع بيان مصدر الحديث؛</li>
+      <li><code>images.unsplash.com</code> — الصور الخلفية للتصميم.</li>
+    </ul>
+    <p>تُدار هذه الخدمات من قِبل جهات مستقلة وتخضع لسياسات الخصوصية الخاصة بها. وقد يستخدم التطبيق كذلك خدمات Google Play للتثبيت والتحديثات.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>الإشعارات</h2>
+    <p>يُنشأ الأذان وتذكيرات أوقات الصلاة والتنبيهات بقرب المناسبات محليًا على جهازك. ولا نستخدم إشعارات فورية مرسلة من خادم. ويمكنك إيقافها من إعدادات التطبيق أو النظام.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>الأطفال</h2>
+    <p>التطبيق مناسب لجميع الأعمار ولا يجمع بيانات شخصية من أي أحد، بمن فيهم الأطفال.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>حقوقك</h2>
+    <p>بما أننا لا نحتفظ بأي من بياناتك، فليس لدينا ما نسلّمه إليك أو نحذفه بناءً على طلبك. ولمحو جميع بيانات التطبيق، احذفه من جهازك أو امسح بياناته من إعدادات النظام. ويمكنك سحب إذن الموقع في أي وقت من إعدادات هاتفك.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>تغييرات هذه السياسة</h2>
+    <p>إذا تغيّر سلوك التطبيق، فسنحدّث هذه الصفحة وتاريخ السريان أعلاه. وسيُشار إلى التغييرات الجوهرية في ملاحظات التحديث في متجر التطبيقات.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>تواصل معنا</h2>
+    <p>أرسل أسئلة الخصوصية أو الملاحظات أو الاقتراحات إلى <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> نردّ على كل رسالة.</p>
+  </section>
+
+  <footer>Qurb · سياسة الخصوصية · آخر تحديث 10 يوليو 2026</footer>
+</main>
+
+<main class="policy" id="p-kk" lang="kk" dir="ltr">
+  <section>
+    <p class="pull">Qurb сіздің жеке деректеріңізді жинамайды, жарнама көрсетпейді және ақпаратты үшінші тұлғаларға бермейді.</p>
+    <p>Бұл саясат Qurb қолданбасының («қолданба») ақпаратты қалай өңдейтінін сипаттайды. Қолданбаны пайдалана отырып, сіз төмендегі шарттарды қабылдайсыз.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>Біз қандай деректерді жинамаймыз</h2>
+    <p>Біз тіркелуді талап етпейміз және аккаунт жасамаймыз. Қолданба мыналарды жинамайды және бізге жібермейді:</p>
+    <ul>
+      <li>аты-жөні, электрондық пошта, телефон нөмірі;</li>
+      <li>контактілер, фотосуреттер, файлдар, күнтізбе;</li>
+      <li>оқу тарихы, бетбелгілер, жазбалар және кез келген басқа әрекет;</li>
+      <li>құрылғының жарнамалық идентификаторлары.</li>
+    </ul>
+    <p>Қолданбада аналитика, трекерлер және жарнамалық SDK жоқ.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Геолокация</h2>
+    <p>Қолданба орналасуға рұқсатты бір ғана мақсатпен сұрайды: намаз уақыты мен құбыла бағытын есептеу үшін. Рұқсат міндетті емес — қаланы қолмен де көрсетуге болады.</p>
+    <ul>
+      <li>Намаз уақыты құрылғының өзінде астрономиялық формулалар бойынша есептеледі. Ол үшін координаттар еш жерге жіберілмейді.</li>
+      <li>Құбыла бағыты құрылғыда координаттар мен компас деректері бойынша есептеледі.</li>
+      <li>Қалаңыздың атауын көрсету үшін қолданба телефонның жүйелік геокодерін (Google немесе Apple қызметі) пайдаланады. Осы сәтте координаттарды операциялық жүйе өз әзірлеушісінің саясатына сәйкес өңдейді. Желі болмаса, қала атауы қолданбаға енгізілген қалалар базасынан офлайн таңдалады.</li>
+    </ul>
+    <p>Сіздің орналасуыңыз тек құрылғыңыздың жадында сақталады. Оны сақтайтын серверлеріміз жоқ.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Құрылғыңыздағы деректер</h2>
+    <p>Бетбелгілер, жеке жазбалар, таңдаулы дұғалар мен азкарлар, қайталау санауыштары, таңдалған тіл, тақырып және қаріп баптаулары жергілікті сақталады. Олар телефоннан шықпайды және қолданбамен бірге жойылады. Бізде оларға қолжетімділік жоқ және оларды қалпына келтіре алмаймыз.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Желілік сұраныстар және үшінші тарап қызметтері</h2>
+    <p>Құранның араб мәтіні, дұғалар және намаз уақыты офлайн жұмыс істейді. Интернет тек қосымша материалдарды жүктеу үшін қажет, содан кейін олар да желісіз қолжетімді болады. Мұндай сұраныстар кезінде үшінші тарап қызметі техникалық тұрғыда құрылғыңыздың IP-мекенжайын көреді — кез келген сайтты ашқандағыдай. Біз бұл қызметтерге сіз туралы ешқандай ақпарат бермейміз.</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — Құран мағыналарының аудармалары және қызметтік деректер;</li>
+      <li><code>everyayah.com</code> — Құранның аудио оқылымы;</li>
+      <li><code>hadeethenc.com</code> — хадис дереккөзі көрсетілген дұғалар мен азкарлар мәтіндері;</li>
+      <li><code>images.unsplash.com</code> — безендірудің фондық суреттері.</li>
+    </ul>
+    <p>Бұл қызметтерді тәуелсіз ұйымдар басқарады және олар өз құпиялылық саясаттарына сәйкес әрекет етеді. Қолданба орнату мен жаңарту үшін Google Play қызметтерін де пайдалануы мүмкін.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Хабарландырулар</h2>
+    <p>Азан, намаз уақыты туралы еске салулар және маңызды күндердің жақындағаны туралы хабарлар құрылғыда жергілікті жасалады. Біз серверден жіберілетін push-хабарландыруларды қолданбаймыз. Оларды қолданба немесе жүйе баптауларынан өшіруге болады.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Балалар</h2>
+    <p>Қолданба кез келген жасқа жарамды және ешкімнен, соның ішінде балалардан, жеке деректер жинамайды.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>Сіздің құқықтарыңыз</h2>
+    <p>Біз сіздің деректеріңізді сақтамайтындықтан, сұрау бойынша беретін немесе жоятын ештеңеміз жоқ. Қолданбаның барлық деректерін өшіру үшін оны құрылғыдан жойыңыз немесе жүйе баптауларында қолданба деректерін тазалаңыз. Геолокацияға рұқсатты кез келген уақытта телефон баптауларынан қайтарып алуға болады.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>Саясаттағы өзгерістер</h2>
+    <p>Егер қолданбаның жұмысы өзгерсе, біз осы бетті және жоғарыдағы күшіне ену күнін жаңартамыз. Елеулі өзгерістер қолданбалар дүкеніндегі жаңарту сипаттамасында көрсетіледі.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>Бізбен байланысу</h2>
+    <p>Құпиялылық туралы сұрақтарды, ескертулер мен ұсыныстарды мына мекенжайға жіберіңіз: <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> Біз барлық хатқа жауап береміз.</p>
+  </section>
+
+  <footer>Qurb · Құпиялылық саясаты · Жаңартылды 2026 жылғы 10 шілде</footer>
+</main>
+
+<main class="policy" id="p-tr" lang="tr" dir="ltr">
+  <section>
+    <p class="pull">Qurb kişisel verilerinizi toplamaz, reklam göstermez ve bilgilerinizi üçüncü taraflarla paylaşmaz.</p>
+    <p>Bu politika, Qurb uygulamasının (“uygulama”) bilgileri nasıl işlediğini açıklar. Uygulamayı kullanarak aşağıdaki koşulları kabul etmiş olursunuz.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>Toplamadığımız veriler</h2>
+    <p>Uygulama kayıt istemez ve hesap oluşturmaz. Şunları toplamaz ve bize göndermez:</p>
+    <ul>
+      <li>adınız, e-posta adresiniz veya telefon numaranız;</li>
+      <li>kişiler, fotoğraflar, dosyalar, takvim;</li>
+      <li>okuma geçmişi, yer imleri, notlar veya başka herhangi bir etkinlik;</li>
+      <li>cihazın reklam kimlikleri.</li>
+    </ul>
+    <p>Uygulamada analitik, izleyici ve reklam SDK’sı bulunmaz.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Konum</h2>
+    <p>Uygulama konum iznini tek bir amaçla ister: namaz vakitlerini ve kıble yönünü hesaplamak. İzin zorunlu değildir — şehrinizi elle de girebilirsiniz.</p>
+    <ul>
+      <li>Namaz vakitleri, astronomik formüllerle doğrudan cihazınızda hesaplanır. Bunun için koordinatlarınız hiçbir yere gönderilmez.</li>
+      <li>Kıble yönü, koordinatlar ve pusula verileriyle cihazınızda hesaplanır.</li>
+      <li>Şehrinizin adını göstermek için uygulama, telefonunuzun sistem coğrafi kodlayıcısını (Google veya Apple hizmeti) çağırır. Bu anda koordinatlarınız, işletim sistemi tarafından kendi sağlayıcısının politikasına göre işlenir. Ağ yokken şehir adı, uygulamanın içine gömülü şehir veritabanından çevrimdışı olarak bulunur.</li>
+    </ul>
+    <p>Konumunuz yalnızca cihazınızın belleğinde tutulur. Saklanabileceği bir sunucumuz yoktur.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Cihazınızdaki veriler</h2>
+    <p>Yer imleri, kişisel notlar, favori dualar ve ezkâr, tekrar sayaçları, seçtiğiniz dil, tema ve yazı tipi ayarları cihazınızda yerel olarak saklanır. Telefonunuzdan çıkmaz ve uygulamayı kaldırdığınızda silinir. Bunlara erişemeyiz ve geri getiremeyiz.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Ağ istekleri ve üçüncü taraf hizmetleri</h2>
+    <p>Kur’an’ın Arapça metni, dualar ve namaz vakitleri çevrimdışı çalışır. İnternet yalnızca ek içerikleri indirmek için gerekir; indirildikten sonra bunlar da çevrimdışı kullanılabilir. Böyle bir istek sırasında üçüncü taraf hizmet, herhangi bir web sitesini açtığınızdaki gibi cihazınızın IP adresini teknik olarak görür. Bu hizmetlere sizinle ilgili hiçbir bilgi göndermeyiz.</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — Kur’an meallerinin çevirileri ve yardımcı veriler;</li>
+      <li><code>everyayah.com</code> — Kur’an sesli okuması;</li>
+      <li><code>hadeethenc.com</code> — hadis kaynağı belirtilen dua ve ezkâr metinleri;</li>
+      <li><code>images.unsplash.com</code> — arka plan görselleri.</li>
+    </ul>
+    <p>Bu hizmetler bağımsız kuruluşlarca yürütülür ve kendi gizlilik politikalarına tabidir. Uygulama ayrıca kurulum ve güncellemeler için Google Play hizmetlerini kullanabilir.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Bildirimler</h2>
+    <p>Ezan, namaz vakti hatırlatmaları ve yaklaşan önemli günlere dair uyarılar cihazınızda yerel olarak oluşturulur. Sunucudan gönderilen push bildirimleri kullanmayız. Bunları uygulama veya sistem ayarlarından kapatabilirsiniz.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Çocuklar</h2>
+    <p>Uygulama her yaşa uygundur ve çocuklar dâhil hiç kimseden kişisel veri toplamaz.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>Haklarınız</h2>
+    <p>Verilerinizi saklamadığımız için, talebiniz üzerine size verebileceğimiz ya da silebileceğimiz bir şey yoktur. Tüm uygulama verilerini silmek için uygulamayı kaldırın veya sistem ayarlarından verilerini temizleyin. Konum iznini istediğiniz zaman telefon ayarlarından geri alabilirsiniz.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>Politikadaki değişiklikler</h2>
+    <p>Uygulamanın davranışı değişirse bu sayfayı ve yukarıdaki yürürlük tarihini güncelleriz. Önemli değişiklikler, uygulama mağazasındaki sürüm notlarında belirtilir.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>Bize ulaşın</h2>
+    <p>Gizlilikle ilgili sorularınızı, düzeltmelerinizi ve önerilerinizi şu adrese gönderin: <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> Her mesaja yanıt veriyoruz.</p>
+  </section>
+
+  <footer>Qurb · Gizlilik Politikası · Güncelleme 10 Temmuz 2026</footer>
+</main>
+
+<main class="policy" id="p-uz" lang="uz" dir="ltr">
+  <section>
+    <p class="pull">Qurb shaxsiy maʼlumotlaringizni yigʻmaydi, reklama koʻrsatmaydi va axborotni uchinchi tomonlarga bermaydi.</p>
+    <p>Ushbu siyosat Qurb ilovasi («ilova») axborot bilan qanday ishlashini tushuntiradi. Ilovadan foydalanish orqali siz quyidagi shartlarni qabul qilasiz.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>Biz qanday maʼlumotlarni yigʻmaymiz</h2>
+    <p>Biz roʻyxatdan oʻtishni talab qilmaymiz va hisob yaratmaymiz. Ilova quyidagilarni yigʻmaydi va bizga yubormaydi:</p>
+    <ul>
+      <li>ism, elektron pochta manzili, telefon raqami;</li>
+      <li>kontaktlar, suratlar, fayllar, taqvim;</li>
+      <li>oʻqish tarixi, xatcho‘plar, eslatmalar va boshqa har qanday faoliyat;</li>
+      <li>qurilmaning reklama identifikatorlari.</li>
+    </ul>
+    <p>Ilovada tahlil vositalari, kuzatuvchilar va reklama SDK’lari yoʻq.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Joylashuv</h2>
+    <p>Ilova joylashuvga ruxsatni yagona maqsad uchun soʻraydi: namoz vaqtlari va qibla yoʻnalishini hisoblash. Ruxsat majburiy emas — shaharni qoʻlda ham kiritishingiz mumkin.</p>
+    <ul>
+      <li>Namoz vaqtlari astronomik formulalar asosida qurilmangizning oʻzida hisoblanadi. Buning uchun koordinatalaringiz hech qayerga yuborilmaydi.</li>
+      <li>Qibla yoʻnalishi koordinatalar va kompas maʼlumotlari asosida qurilmada hisoblanadi.</li>
+      <li>Shahringiz nomini koʻrsatish uchun ilova telefoningizning tizim geokoderiga (Google yoki Apple xizmati) murojaat qiladi. Shu payt koordinatalar operatsion tizim tomonidan oʻz ishlab chiquvchisining siyosatiga muvofiq qayta ishlanadi. Tarmoq boʻlmasa, shahar nomi ilovaga oʻrnatilgan shaharlar bazasidan oflayn tanlanadi.</li>
+    </ul>
+    <p>Joylashuvingiz faqat qurilmangiz xotirasida saqlanadi. Uni saqlaydigan serverlarimiz yoʻq.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Qurilmangizdagi maʼlumotlar</h2>
+    <p>Xatcho‘plar, shaxsiy eslatmalar, sevimli duolar va azkorlar, takrorlash hisoblagichlari, tanlangan til, mavzu va shrift sozlamalari mahalliy saqlanadi. Ular telefondan chiqmaydi va ilova bilan birga oʻchiriladi. Bizda ularga kirish imkoni yoʻq va ularni tiklay olmaymiz.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Tarmoq soʻrovlari va uchinchi tomon xizmatlari</h2>
+    <p>Qurʼonning arabcha matni, duolar va namoz vaqtlari oflayn ishlaydi. Internet faqat qoʻshimcha materiallarni yuklab olish uchun kerak; shundan soʻng ular ham tarmoqsiz mavjud boʻladi. Bunday soʻrovlarda uchinchi tomon xizmati texnik jihatdan qurilmangiz IP-manzilini koʻradi — xuddi har qanday saytni ochgandagi kabi. Biz bu xizmatlarga siz haqingizda hech qanday maʼlumot bermaymiz.</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — Qurʼon maʼnolari tarjimalari va yordamchi maʼlumotlar;</li>
+      <li><code>everyayah.com</code> — Qurʼonning audio qiroati;</li>
+      <li><code>hadeethenc.com</code> — hadis manbasi koʻrsatilgan duo va azkor matnlari;</li>
+      <li><code>images.unsplash.com</code> — bezak uchun fon tasvirlari.</li>
+    </ul>
+    <p>Bu xizmatlar mustaqil tashkilotlar tomonidan boshqariladi va oʻz maxfiylik siyosatlariga amal qiladi. Ilova oʻrnatish va yangilanishlar uchun Google Play xizmatlaridan ham foydalanishi mumkin.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Bildirishnomalar</h2>
+    <p>Azon, namoz vaqti eslatmalari va muhim sanalar yaqinlashgani haqidagi ogohlantirishlar qurilmada mahalliy yaratiladi. Biz serverdan yuboriladigan push-bildirishnomalardan foydalanmaymiz. Ularni ilova yoki tizim sozlamalaridan oʻchirish mumkin.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Bolalar</h2>
+    <p>Ilova har qanday yosh uchun mos va hech kimdan, jumladan bolalardan ham, shaxsiy maʼlumot yigʻmaydi.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>Sizning huquqlaringiz</h2>
+    <p>Biz maʼlumotlaringizni saqlamaganimiz uchun soʻrov boʻyicha topshiradigan yoki oʻchiradigan narsamiz yoʻq. Ilovaning barcha maʼlumotlarini oʻchirish uchun uni qurilmadan olib tashlang yoki tizim sozlamalarida ilova maʼlumotlarini tozalang. Joylashuvga ruxsatni istalgan vaqtda telefon sozlamalaridan qaytarib olishingiz mumkin.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>Siyosatdagi oʻzgarishlar</h2>
+    <p>Agar ilovaning ishlashi oʻzgarsa, biz ushbu sahifani va yuqoridagi kuchga kirish sanasini yangilaymiz. Jiddiy oʻzgarishlar ilovalar doʻkonidagi yangilanish tavsifida qayd etiladi.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>Biz bilan bogʻlanish</h2>
+    <p>Maxfiylik boʻyicha savollar, izohlar va takliflarni quyidagi manzilga yuboring: <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> Biz har bir xatga javob beramiz.</p>
+  </section>
+
+  <footer>Qurb · Maxfiylik siyosati · Yangilandi 2026-yil 10-iyul</footer>
+</main>
+
+<main class="policy" id="p-az" lang="az" dir="ltr">
+  <section>
+    <p class="pull">Qurb şəxsi məlumatlarınızı toplamır, reklam göstərmir və məlumatları üçüncü tərəflərə vermir.</p>
+    <p>Bu siyasət Qurb tətbiqinin («tətbiq») məlumatlarla necə davrandığını izah edir. Tətbiqdən istifadə etməklə aşağıdakı şərtləri qəbul edirsiniz.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>Hansı məlumatları toplamırıq</h2>
+    <p>Qeydiyyat tələb etmirik və hesab yaratmırıq. Tətbiq aşağıdakıları toplamır və bizə göndərmir:</p>
+    <ul>
+      <li>ad, e-poçt ünvanı, telefon nömrəsi;</li>
+      <li>kontaktlar, şəkillər, fayllar, təqvim;</li>
+      <li>oxu tarixçəsi, əlfəcinlər, qeydlər və hər hansı digər fəaliyyət;</li>
+      <li>cihazın reklam identifikatorları.</li>
+    </ul>
+    <p>Tətbiqdə analitika, izləyicilər və reklam SDK-ları yoxdur.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Məkan</h2>
+    <p>Tətbiq məkan icazəsini yalnız bir məqsədlə istəyir: namaz vaxtlarını və qiblə istiqamətini hesablamaq. İcazə məcburi deyil — şəhəri əl ilə də daxil edə bilərsiniz.</p>
+    <ul>
+      <li>Namaz vaxtları astronomik düsturlarla birbaşa cihazınızda hesablanır. Bunun üçün koordinatlarınız heç yerə göndərilmir.</li>
+      <li>Qiblə istiqaməti koordinatlar və kompas məlumatları əsasında cihazda hesablanır.</li>
+      <li>Şəhərinizin adını göstərmək üçün tətbiq telefonunuzun sistem geokoderinə (Google və ya Apple xidməti) müraciət edir. Bu zaman koordinatlar əməliyyat sistemi tərəfindən öz tərtibatçısının siyasətinə uyğun emal olunur. Şəbəkə olmadıqda şəhər adı tətbiqə daxil edilmiş şəhər bazasından oflayn seçilir.</li>
+    </ul>
+    <p>Məkanınız yalnız cihazınızın yaddaşında saxlanılır. Onu saxlaya biləcək serverlərimiz yoxdur.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Cihazınızdakı məlumatlar</h2>
+    <p>Əlfəcinlər, şəxsi qeydlər, seçilmiş dualar və əzkarlar, təkrar sayğacları, seçdiyiniz dil, tema və şrift ayarları cihazda yerli saxlanılır. Onlar telefonu tərk etmir və tətbiqlə birlikdə silinir. Bizim onlara girişimiz yoxdur və onları bərpa edə bilmərik.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Şəbəkə sorğuları və üçüncü tərəf xidmətləri</h2>
+    <p>Quranın ərəbcə mətni, dualar və namaz vaxtları oflayn işləyir. İnternet yalnız əlavə materialları yükləmək üçün lazımdır; yükləndikdən sonra onlar da şəbəkəsiz əlçatan olur. Belə sorğular zamanı üçüncü tərəf xidməti texniki olaraq cihazınızın IP ünvanını görür — istənilən sayta daxil olduğunuz kimi. Bu xidmətlərə sizin haqqınızda heç bir məlumat vermirik.</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — Quran mənalarının tərcümələri və köməkçi məlumatlar;</li>
+      <li><code>everyayah.com</code> — Quranın audio qiraəti;</li>
+      <li><code>hadeethenc.com</code> — hədis mənbəyi göstərilən dua və əzkar mətnləri;</li>
+      <li><code>images.unsplash.com</code> — dizayn üçün fon şəkilləri.</li>
+    </ul>
+    <p>Bu xidmətlər müstəqil təşkilatlar tərəfindən idarə olunur və öz məxfilik siyasətlərinə tabedir. Tətbiq quraşdırma və yeniləmələr üçün Google Play xidmətlərindən də istifadə edə bilər.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Bildirişlər</h2>
+    <p>Azan, namaz vaxtı xatırlatmaları və mühüm günlərin yaxınlaşması barədə bildirişlər cihazda yerli yaradılır. Serverdən göndərilən push bildirişlərindən istifadə etmirik. Onları tətbiq və ya sistem ayarlarından söndürmək olar.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Uşaqlar</h2>
+    <p>Tətbiq bütün yaşlar üçün uyğundur və uşaqlar da daxil olmaqla heç kimdən şəxsi məlumat toplamır.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>Hüquqlarınız</h2>
+    <p>Məlumatlarınızı saxlamadığımız üçün sorğunuza əsasən sizə verə və ya silə biləcəyimiz heç nə yoxdur. Bütün tətbiq məlumatlarını silmək üçün onu cihazdan çıxarın və ya sistem ayarlarında tətbiqin məlumatlarını təmizləyin. Məkan icazəsini istənilən vaxt telefon ayarlarından geri ala bilərsiniz.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>Siyasətdəki dəyişikliklər</h2>
+    <p>Tətbiqin davranışı dəyişərsə, bu səhifəni və yuxarıdakı qüvvəyəminmə tarixini yeniləyəcəyik. Əhəmiyyətli dəyişikliklər tətbiq mağazasındakı yeniləmə qeydlərində göstəriləcək.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>Bizimlə əlaqə</h2>
+    <p>Məxfiliklə bağlı sualları, iradları və təklifləri bu ünvana göndərin: <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> Hər məktuba cavab veririk.</p>
+  </section>
+
+  <footer>Qurb · Məxfilik siyasəti · Yeniləndi 10 iyul 2026</footer>
+</main>
+
+<main class="policy" id="p-ky" lang="ky" dir="ltr">
+  <section>
+    <p class="pull">Qurb сиздин жеке маалыматтарыңызды чогултпайт, жарнама көрсөтпөйт жана маалыматты үчүнчү жактарга бербейт.</p>
+    <p>Бул саясат Qurb колдонмосу («колдонмо») маалымат менен кандай иштээрин түшүндүрөт. Колдонмону пайдалануу менен сиз төмөнкү шарттарды кабыл аласыз.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>Биз кандай маалыматтарды чогултпайбыз</h2>
+    <p>Биз каттоону талап кылбайбыз жана аккаунт түзбөйбүз. Колдонмо төмөнкүлөрдү чогултпайт жана бизге жөнөтпөйт:</p>
+    <ul>
+      <li>аты-жөнү, электрондук почта, телефон номери;</li>
+      <li>байланыштар, сүрөттөр, файлдар, календарь;</li>
+      <li>окуу тарыхы, кыстармалар, жазуулар жана башка иш-аракеттер;</li>
+      <li>түзмөктүн жарнамалык идентификаторлору.</li>
+    </ul>
+    <p>Колдонмодо аналитика, трекерлер жана жарнамалык SDK жок.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Жайгашуу</h2>
+    <p>Колдонмо жайгашууга уруксатты бир гана максатта сурайт: намаз убактысын жана кыбыла багытын эсептөө үчүн. Уруксат милдеттүү эмес — шаарды кол менен да көрсөтсө болот.</p>
+    <ul>
+      <li>Намаз убактысы астрономиялык формулалар боюнча түзмөктүн өзүндө эсептелет. Ал үчүн координаттар эч жакка жөнөтүлбөйт.</li>
+      <li>Кыбыла багыты координаттар жана компас маалыматтары боюнча түзмөктө эсептелет.</li>
+      <li>Шаарыңыздын аталышын көрсөтүү үчүн колдонмо телефондун системалык геокодерине (Google же Apple кызматы) кайрылат. Ушул учурда координаттарды операциялык система өз иштеп чыгуучусунун саясатына ылайык иштетет. Тармак болбосо, шаар аталышы колдонмого камтылган шаарлар базасынан офлайн тандалат.</li>
+    </ul>
+    <p>Сиздин жайгашууңуз түзмөгүңүздүн эс тутумунда гана сакталат. Аны сактай турган серверлерибиз жок.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Түзмөгүңүздөгү маалыматтар</h2>
+    <p>Кыстармалар, жеке жазуулар, тандалган дубалар жана азкарлар, кайталоо эсептегичтери, тандалган тил, тема жана арип жөндөөлөрү жергиликтүү сакталат. Алар телефондон чыкпайт жана колдонмо менен бирге өчүрүлөт. Бизде аларга жетүү мүмкүнчүлүгү жок жана аларды калыбына келтире албайбыз.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Тармактык сурамдар жана үчүнчү тараптын кызматтары</h2>
+    <p>Курандын араб тексти, дубалар жана намаз убактысы офлайн иштейт. Интернет кошумча материалдарды жүктөө үчүн гана керек, андан кийин алар да тармаксыз жеткиликтүү. Мындай сурамдарда үчүнчү тараптын кызматы техникалык жактан түзмөгүңүздүн IP дарегин көрөт — кандайдыр бир сайтты ачкандагыдай. Биз бул кызматтарга сиз жөнүндө эч кандай маалымат бербейбиз.</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — Курандын маанилеринин котормолору жана кызматтык маалыматтар;</li>
+      <li><code>everyayah.com</code> — Курандын аудио окулушу;</li>
+      <li><code>hadeethenc.com</code> — хадис булагы көрсөтүлгөн дуба жана азкар тексттери;</li>
+      <li><code>images.unsplash.com</code> — жасалгалоо үчүн фондук сүрөттөр.</li>
+    </ul>
+    <p>Бул кызматтар көз карандысыз уюмдар тарабынан башкарылат жана өз купуялык саясаттарына баш ийет. Колдонмо орнотуу жана жаңыртуу үчүн Google Play кызматтарын да колдонушу мүмкүн.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Билдирмелер</h2>
+    <p>Азан, намаз убактысы жөнүндө эскертүүлөр жана маанилүү күндөрдүн жакындаганы тууралуу билдирүүлөр түзмөктө жергиликтүү түзүлөт. Биз серверден жөнөтүлүүчү push-билдирмелерди колдонбойбуз. Аларды колдонмонун же системанын жөндөөлөрүнөн өчүрсө болот.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Балдар</h2>
+    <p>Колдонмо ар кандай жашка ылайыктуу жана эч кимден, анын ичинде балдардан, жеке маалымат чогултпайт.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>Сиздин укуктарыңыз</h2>
+    <p>Биз сиздин маалыматтарыңызды сактабагандыктан, сурам боюнча бере турган же өчүрө турган эч нерсебиз жок. Колдонмонун бардык маалыматтарын өчүрүү үчүн аны түзмөктөн алып салыңыз же система жөндөөлөрүндө колдонмонун маалыматтарын тазалаңыз. Жайгашууга уруксатты каалаган убакта телефон жөндөөлөрүнөн кайтарып алса болот.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>Саясаттагы өзгөрүүлөр</h2>
+    <p>Эгерде колдонмонун иштеши өзгөрсө, биз бул баракты жана жогорудагы күчүнө кирүү күнүн жаңыртабыз. Олуттуу өзгөрүүлөр колдонмолор дүкөнүндөгү жаңыртуу баяндамасында белгиленет.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>Биз менен байланышуу</h2>
+    <p>Купуялык боюнча суроолорду, эскертүүлөрдү жана сунуштарды төмөнкү дарекке жөнөтүңүз: <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> Биз бардык катка жооп беребиз.</p>
+  </section>
+
+  <footer>Qurb · Купуялык саясаты · Жаңыртылды 2026-жылдын 10-июлу</footer>
+</main>
+
+<main class="policy" id="p-tg" lang="tg" dir="ltr">
+  <section>
+    <p class="pull">Qurb маълумоти шахсии шуморо ҷамъ намекунад, реклама намоиш намедиҳад ва маълумотро ба тарафҳои сеюм намедиҳад.</p>
+    <p>Ин сиёсат тавзеҳ медиҳад, ки барномаи Qurb («барнома») бо маълумот чӣ гуна муомила мекунад. Бо истифода аз барнома шумо шартҳои зеринро қабул мекунед.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>Кадом маълумотро ҷамъ намекунем</h2>
+    <p>Мо сабти ном талаб намекунем ва ҳисоб намесозем. Барнома инҳоро ҷамъ намекунад ва ба мо намефиристад:</p>
+    <ul>
+      <li>ном, суроғаи почтаи электронӣ, рақами телефон;</li>
+      <li>тамосҳо, аксҳо, файлҳо, тақвим;</li>
+      <li>таърихи хониш, хатчӯбҳо, ёддоштҳо ва ҳар гуна фаъолияти дигар;</li>
+      <li>идентификаторҳои таблиғотии дастгоҳ.</li>
+    </ul>
+    <p>Дар барнома таҳлилгарҳо, пайгирикунандагон ва SDK-ҳои таблиғотӣ вуҷуд надоранд.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Ҷойгиршавӣ</h2>
+    <p>Барнома иҷозати ҷойгиршавиро танҳо бо як мақсад мепурсад: ҳисоби вақтҳои намоз ва самти қибла. Иҷозат ҳатмӣ нест — шаҳрро дастӣ низ метавон нишон дод.</p>
+    <ul>
+      <li>Вақтҳои намоз дар худи дастгоҳ бо формулаҳои астрономӣ ҳисоб карда мешаванд. Барои ин координатҳо ба ҷое фиристода намешаванд.</li>
+      <li>Самти қибла дар дастгоҳ аз рӯи координатҳо ва маълумоти қутбнамо ҳисоб мешавад.</li>
+      <li>Барои нишон додани номи шаҳри шумо барнома ба геокодери системавии телефон (хидмати Google ё Apple) муроҷиат мекунад. Дар ин лаҳза координатҳо аз ҷониби низоми амалиётӣ мувофиқи сиёсати таҳиягари он коркард мешаванд. Ҳангоми набудани шабака номи шаҳр аз пойгоҳи шаҳрҳои дохили барнома ба таври офлайн интихоб мешавад.</li>
+    </ul>
+    <p>Ҷойгиршавии шумо танҳо дар хотираи дастгоҳатон нигоҳ дошта мешавад. Мо серверҳое надорем, ки он дар онҳо захира шавад.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Маълумот дар дастгоҳи шумо</h2>
+    <p>Хатчӯбҳо, ёддоштҳои шахсӣ, дуоҳо ва азкори интихобшуда, ҳисобкунакҳои такрор, забони интихобшуда, мавзӯъ ва танзимоти ҳуруф ба таври маҳаллӣ нигоҳ дошта мешаванд. Онҳо аз телефон намебароянд ва ҳамроҳи барнома нест мешаванд. Мо ба онҳо дастрасӣ надорем ва барқарор карда наметавонем.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Дархостҳои шабакавӣ ва хидматҳои тарафи сеюм</h2>
+    <p>Матни арабии Қуръон, дуоҳо ва вақтҳои намоз офлайн кор мекунанд. Интернет танҳо барои боргирии маводи иловагӣ лозим аст, ки пас аз он онҳо низ бе шабака дастрасанд. Ҳангоми чунин дархостҳо хидмати тарафи сеюм аз ҷиҳати техникӣ суроғаи IP-и дастгоҳи шуморо мебинад — мисли кушодани ҳар сомона. Мо ба ин хидматҳо ҳеҷ маълумоте дар бораи шумо намефиристем.</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — тарҷумаҳои маъноҳои Қуръон ва маълумоти хидматӣ;</li>
+      <li><code>everyayah.com</code> — қироати аудиоии Қуръон;</li>
+      <li><code>hadeethenc.com</code> — матнҳои дуоҳо ва азкор бо зикри манбаи ҳадис;</li>
+      <li><code>images.unsplash.com</code> — тасвирҳои замина барои ороиш.</li>
+    </ul>
+    <p>Ин хидматҳо аз ҷониби ташкилотҳои мустақил идора мешаванд ва тибқи сиёсати махфияти худ амал мекунанд. Барнома инчунин метавонад хидматҳои Google Play-ро барои насб ва навсозӣ истифода барад.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Огоҳиномаҳо</h2>
+    <p>Азон, ёдрасиҳои вақти намоз ва огоҳӣ дар бораи наздик шудани санаҳои муҳим дар дастгоҳ ба таври маҳаллӣ сохта мешаванд. Мо огоҳиномаҳои push-и аз сервер фиристодашударо истифода намебарем. Онҳоро аз танзимоти барнома ё низом хомӯш кардан мумкин аст.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Кӯдакон</h2>
+    <p>Барнома барои ҳар синну сол мувофиқ аст ва аз ҳеҷ кас, аз ҷумла кӯдакон, маълумоти шахсӣ ҷамъ намекунад.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>Ҳуқуқҳои шумо</h2>
+    <p>Азбаски мо маълумоти шуморо нигоҳ намедорем, чизе надорем, ки бо дархост ба шумо диҳем ё нест кунем. Барои нест кардани ҳамаи маълумоти барнома онро аз дастгоҳ хориҷ кунед ё дар танзимоти низом маълумоти барномаро тоза кунед. Иҷозати ҷойгиршавиро дар ҳар вақт аз танзимоти телефон бозпас гирифтан мумкин аст.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>Тағйирот дар сиёсат</h2>
+    <p>Агар рафтори барнома тағйир ёбад, мо ин саҳифа ва санаи эътибор пайдо карданро дар боло навсозӣ мекунем. Тағйироти муҳим дар тавсифи навсозӣ дар мағозаи барномаҳо қайд карда мешаванд.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>Тамос бо мо</h2>
+    <p>Саволҳо оид ба махфият, эродҳо ва пешниҳодҳоро ба ин суроға фиристед: <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> Мо ба ҳар мактуб ҷавоб медиҳем.</p>
+  </section>
+
+  <footer>Qurb · Сиёсати махфият · Навсозӣ 10 июли соли 2026</footer>
+</main>
+
+<main class="policy" id="p-ja" lang="ja" dir="ltr">
+  <section>
+    <p class="pull">Qurb は個人データを収集せず、広告を表示せず、情報を第三者に提供しません。</p>
+    <p>本ポリシーは、Qurb アプリ（以下「本アプリ」）が情報をどのように取り扱うかを説明します。本アプリを利用することで、以下の条件に同意したものとみなされます。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>収集しないデータ</h2>
+    <p>本アプリは登録を求めず、アカウントも作成しません。次の情報を収集せず、当方に送信しません。</p>
+    <ul>
+      <li>氏名、メールアドレス、電話番号</li>
+      <li>連絡先、写真、ファイル、カレンダー</li>
+      <li>閲覧履歴、しおり、メモ、その他一切の利用状況</li>
+      <li>端末の広告識別子</li>
+    </ul>
+    <p>本アプリには解析ツール、トラッカー、広告 SDK は含まれていません。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>位置情報</h2>
+    <p>本アプリが位置情報の許可を求めるのは、礼拝時刻とキブラの方角を計算するためだけです。許可は任意で、都市名を手動で入力することもできます。</p>
+    <ul>
+      <li>礼拝時刻は天文計算式により端末上で算出されます。そのために座標が外部へ送信されることはありません。</li>
+      <li>キブラの方角は、座標とコンパスの値をもとに端末上で計算されます。</li>
+      <li>都市名を表示するため、本アプリは端末のシステムジオコーダー（Google または Apple のサービス）を呼び出します。その際、座標は各提供元のポリシーに従い OS が処理します。ネットワークがない場合は、アプリに内蔵された都市データベースからオフラインで都市名を判定します。</li>
+    </ul>
+    <p>位置情報は端末のメモリ上にのみ保持されます。当方はそれを保存できるサーバーを保有していません。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>端末内のデータ</h2>
+    <p>しおり、個人メモ、お気に入りのドゥアーとアズカール、回数カウンター、選択した言語、テーマ、フォント設定は端末内に保存されます。端末外へ出ることはなく、アプリを削除すると消去されます。当方は参照も復元もできません。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>通信と第三者サービス</h2>
+    <p>アラビア語のクルアーン、ドゥアー、礼拝時刻はオフラインで動作します。インターネットは追加素材のダウンロード時にのみ必要で、取得後はオフラインでも利用できます。この通信の際、第三者サービスは端末の IP アドレスを技術的に認識します。これは任意のウェブサイトを開く場合と同じです。当方からこれらのサービスへ利用者の情報を送ることはありません。</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — クルアーンの意味の翻訳および関連データ</li>
+      <li><code>everyayah.com</code> — クルアーンの音声朗誦</li>
+      <li><code>hadeethenc.com</code> — 出典ハディースを明記したドゥアーとアズカールの本文</li>
+      <li><code>images.unsplash.com</code> — 背景画像</li>
+    </ul>
+    <p>これらのサービスは独立した組織が運営し、それぞれのプライバシーポリシーに従います。本アプリはインストールと更新のために Google Play のサービスを利用する場合があります。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>通知</h2>
+    <p>アザーン、礼拝時刻のリマインダー、重要な日の予告は端末上でローカルに生成されます。サーバーから送るプッシュ通知は使用していません。アプリまたは端末の設定から無効にできます。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>子ども</h2>
+    <p>本アプリは全年齢に適しており、子どもを含むいかなる利用者からも個人データを収集しません。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>利用者の権利</h2>
+    <p>当方は利用者のデータを保持していないため、請求に応じて引き渡したり削除したりするものはありません。アプリのデータを完全に消去するには、アプリを削除するか、端末の設定からアプリのデータを消去してください。位置情報の許可は端末の設定でいつでも取り消せます。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>ポリシーの変更</h2>
+    <p>本アプリの動作が変わった場合、本ページと上部の発効日を更新します。重要な変更はアプリストアの更新内容に記載します。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>お問い合わせ</h2>
+    <p>プライバシーに関するご質問、ご指摘、ご要望は次の宛先へお送りください。 <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> いただいたメールにはすべて返信します。</p>
+  </section>
+
+  <footer>Qurb · プライバシーポリシー · 更新日 2026年7月10日</footer>
+</main>
+
+<main class="policy" id="p-ko" lang="ko" dir="ltr">
+  <section>
+    <p class="pull">Qurb는 개인정보를 수집하지 않고, 광고를 표시하지 않으며, 정보를 제3자에게 제공하지 않습니다.</p>
+    <p>본 방침은 Qurb 앱(이하 “앱”)이 정보를 어떻게 취급하는지 설명합니다. 앱을 사용하시면 아래 조건에 동의하는 것으로 간주됩니다.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">01</span>수집하지 않는 정보</h2>
+    <p>앱은 가입을 요구하지 않으며 계정을 만들지 않습니다. 다음 정보를 수집하거나 저희에게 전송하지 않습니다.</p>
+    <ul>
+      <li>이름, 이메일 주소, 전화번호</li>
+      <li>연락처, 사진, 파일, 캘린더</li>
+      <li>읽기 기록, 북마크, 메모 및 기타 모든 활동</li>
+      <li>기기의 광고 식별자</li>
+    </ul>
+    <p>앱에는 분석 도구, 추적기, 광고 SDK가 없습니다.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>위치 정보</h2>
+    <p>앱이 위치 권한을 요청하는 목적은 단 하나, 예배 시간과 키블라 방향을 계산하기 위함입니다. 권한은 선택 사항이며 도시를 직접 입력할 수도 있습니다.</p>
+    <ul>
+      <li>예배 시간은 천문 공식에 따라 기기 자체에서 계산됩니다. 이를 위해 좌표가 외부로 전송되지 않습니다.</li>
+      <li>키블라 방향은 좌표와 나침반 데이터를 바탕으로 기기에서 계산됩니다.</li>
+      <li>도시 이름을 표시하기 위해 앱은 휴대폰의 시스템 지오코더(Google 또는 Apple 서비스)를 호출합니다. 이때 좌표는 해당 제공자의 방침에 따라 운영체제가 처리합니다. 네트워크가 없으면 앱에 내장된 도시 데이터베이스에서 오프라인으로 도시 이름을 찾습니다.</li>
+    </ul>
+    <p>위치 정보는 기기 메모리에만 보관됩니다. 저희에게는 이를 저장할 서버가 없습니다.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>기기에 저장되는 데이터</h2>
+    <p>북마크, 개인 메모, 즐겨찾는 두아와 아즈카르, 반복 횟수, 선택한 언어, 테마, 글꼴 설정은 기기에 로컬로 저장됩니다. 휴대폰을 벗어나지 않으며 앱을 삭제하면 함께 지워집니다. 저희는 이에 접근하거나 복구할 수 없습니다.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>네트워크 요청 및 제3자 서비스</h2>
+    <p>아랍어 꾸란 본문, 두아, 예배 시간은 오프라인으로 작동합니다. 인터넷은 추가 자료를 내려받을 때만 필요하며, 내려받은 뒤에는 오프라인에서도 이용할 수 있습니다. 이러한 요청 시 제3자 서비스는 기술적으로 기기의 IP 주소를 확인하게 되는데, 이는 어떤 웹사이트를 열 때와 같습니다. 저희는 이 서비스들에 이용자에 관한 어떠한 정보도 보내지 않습니다.</p>
+    <ul>
+      <li><code>api.quran.com</code> · <code>cdn.jsdelivr.net</code> — 꾸란 의미 번역 및 보조 데이터</li>
+      <li><code>everyayah.com</code> — 꾸란 음성 낭송</li>
+      <li><code>hadeethenc.com</code> — 하디스 출처가 표기된 두아와 아즈카르 본문</li>
+      <li><code>images.unsplash.com</code> — 배경 이미지</li>
+    </ul>
+    <p>이 서비스들은 독립된 기관이 운영하며 각자의 개인정보 처리방침을 따릅니다. 앱은 설치와 업데이트를 위해 Google Play 서비스를 이용할 수 있습니다.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>알림</h2>
+    <p>아잔, 예배 시간 알림, 주요 기념일 예고는 기기에서 로컬로 생성됩니다. 서버에서 보내는 푸시 알림은 사용하지 않습니다. 앱 또는 시스템 설정에서 끌 수 있습니다.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>어린이</h2>
+    <p>앱은 모든 연령에 적합하며 어린이를 포함한 누구에게서도 개인정보를 수집하지 않습니다.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>이용자의 권리</h2>
+    <p>저희는 이용자의 데이터를 보유하지 않으므로 요청에 따라 제공하거나 삭제할 것이 없습니다. 앱 데이터를 모두 지우려면 앱을 삭제하거나 시스템 설정에서 앱 데이터를 지우십시오. 위치 권한은 언제든지 휴대폰 설정에서 철회할 수 있습니다.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>방침의 변경</h2>
+    <p>앱의 동작이 바뀌면 본 페이지와 상단의 시행일을 갱신합니다. 중요한 변경 사항은 앱스토어의 업데이트 내용에 명시됩니다.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>문의</h2>
+    <p>개인정보 관련 질문, 정정 요청, 제안은 다음 주소로 보내 주십시오. <a href="mailto:yi.mutawir@gmail.com">yi.mutawir@gmail.com</a> 모든 메일에 답변드립니다.</p>
+  </section>
+
+  <footer>Qurb · 개인정보 처리방침 · 2026년 7월 10일 갱신</footer>
+</main>
+
+
+</div>
+<script>
+  var known = ["ru", "en", "ar", "kk", "tr", "uz", "az", "ky", "tg", "ja", "ko"];
+  var btns = document.querySelectorAll('.lang-btn');
+  function show(code){
+    if (known.indexOf(code) < 0) return;
+    document.querySelectorAll('.policy').forEach(function(s){
+      s.classList.toggle('active', s.id === 'p-' + code);
+    });
+    document.querySelectorAll('[data-h]').forEach(function(el){
+      el.hidden = el.dataset.h !== code;
+    });
+    btns.forEach(function(b){ b.classList.toggle('active', b.dataset.lang === code); });
+    document.documentElement.lang = code;
+    document.documentElement.dir = (code === 'ar') ? 'rtl' : 'ltr';
+    try { history.replaceState(null, '', '#' + code); } catch(e){}
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){ show(b.dataset.lang); }); });
+  var hash = (location.hash || '').replace('#','');
+  if (known.indexOf(hash) >= 0) show(hash);
+  else {
+    var nav = (navigator.language || 'ru').slice(0,2);
+    if (known.indexOf(nav) >= 0) show(nav);
+  }
+</script>
+</body>
+</html>

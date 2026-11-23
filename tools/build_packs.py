@@ -55,7 +55,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Разделы содержимого: (папка в репозитории, раздел пакета, имя ресурса).
 # Файл <папка>/<код>.json.gz — исходник; в пакет попадает как есть.
 SECTIONS = [
-    ('dua', 'dua', '{c}.json'),             # {"cat":{…}, "dua":{titleEn:{t,tr,s}}}
+    ('dua', 'dua', '{c}.json'),             # {"cat":{…}, "dua":{titleEn:{t,tr,s,tl}}}
     ('azkar', 'azkar', 'azkar_{c}.json'),   # {titleEn:{t,tl,tr,s}} — после намаза, перед сном
     ('dhikr', 'azkar', 'dhikr_{c}.json'),   # {номер:{tl,nar,s}} — утро и вечер
     ('hadiths', 'azkar', 'hadiths_{c}.json'),
