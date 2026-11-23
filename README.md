@@ -144,3 +144,13 @@ python3 tools/build_packs.py kk            # пересобрать пакет �
   добавлен `tools/build_packs.py`, отчёты — в `docs/`.
 - **pack_version 2** — раздел `system` со всеми строками интерфейса
   для 11 языков, папка `policies/`.
+
+## Политика конфиденциальности для Google Play
+
+`privacy/<язык>.md` – политика конфиденциальности на 11 языках (ar, ru, en, kk, ky, uz, tg, tr, az, ja, ko), так же, как в 114_contents: простой Markdown, GitHub сам показывает его как страницу. Ссылка для Play Console (поле «Политика конфиденциальности»):
+
+https://github.com/Yi-Developer/Qurb_all_contents/blob/main/privacy/en.md
+
+Русская версия: https://github.com/Yi-Developer/Qurb_all_contents/blob/main/privacy/ru.md
+
+Текст тот же, что в `policies/privacy_<язык>.md` (их показывает приложение); при правке меняйте оба.

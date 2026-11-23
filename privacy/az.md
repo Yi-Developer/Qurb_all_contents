@@ -1,0 +1,70 @@
+# Məxfilik siyasəti
+
+Qurb şəxsi məlumatlarınızı toplamır, reklam göstərmir və məlumatları üçüncü tərəflərə vermir.
+
+Tətbiqi təkbaşına hazırlayır və dəstəkləyirəm, ona görə də bu mətndəki «mən» tərtibatçıdır.
+
+Bu siyasət Qurb tətbiqinin («tətbiq») məlumatlarla necə davrandığını izah edir. Tətbiqdən istifadə etməklə aşağıdakı şərtləri qəbul edirsiniz.
+
+## Hansı məlumatları toplamıram
+
+Qeydiyyat tələb etmirəm və hesab yaratmıram. Tətbiq aşağıdakıları toplamır və mənə göndərmir:
+
+- ad, e-poçt ünvanı, telefon nömrəsi;
+- kontaktlar, şəkillər, fayllar, təqvim;
+- oxu tarixçəsi, əlfəcinlər, qeydlər və hər hansı digər fəaliyyət;
+- cihazın reklam identifikatorları.
+
+Tətbiqdə analitika, izləyicilər və reklam SDK-ları yoxdur.
+
+## Məkan
+
+Tətbiq məkan icazəsini yalnız bir məqsədlə istəyir: namaz vaxtlarını və qiblə istiqamətini hesablamaq. İcazə məcburi deyil – şəhəri əl ilə də daxil edə bilərsiniz.
+
+- Namaz vaxtları astronomik düsturlarla birbaşa cihazınızda hesablanır. Bunun üçün koordinatlarınız heç yerə göndərilmir.
+- Qiblə istiqaməti koordinatlar və kompas məlumatları əsasında cihazda hesablanır.
+- Şəhərinizin adını göstərmək üçün tətbiq telefonunuzun sistem geokoderinə (Google və ya Apple xidməti) müraciət edir. Bu zaman koordinatlar əməliyyat sistemi tərəfindən öz tərtibatçısının siyasətinə uyğun emal olunur. Şəbəkə olmadıqda şəhər adı tətbiqə daxil edilmiş şəhər bazasından oflayn seçilir.
+
+Məkanınız yalnız cihazınızın yaddaşında saxlanılır. Onu saxlaya biləcək serverlərim yoxdur.
+
+## Cihazınızdakı məlumatlar
+
+Əlfəcinlər, şəxsi qeydlər, seçilmiş dualar və əzkarlar, təkrar sayğacları, seçdiyiniz dil, tema və şrift ayarları cihazda yerli saxlanılır. Onlar telefonu tərk etmir və tətbiqlə birlikdə silinir. Mənim onlara girişim yoxdur və onları bərpa edə bilmərəm.
+
+## Hava
+
+Əsas ekranda havanı və ya proqnozu açsanız, tətbiq cari şərait və proqnozu almaq üçün seçilmiş yerin koordinatlarını hava xidmətinə (WeatherAPI.com; əlçatan olmadıqda – Open-Meteo) göndərir. Heç bir identifikator olmadan yalnız koordinatlar və interfeys dili ötürülür. Cavab cihazda keşlənir.
+
+## Şəbəkə sorğuları və üçüncü tərəf xidmətləri
+
+Quranın ərəbcə mətni, dualar və namaz vaxtları oflayn işləyir. İnternet yalnız əlavə materialları yükləmək üçün lazımdır; yükləndikdən sonra onlar da şəbəkəsiz əlçatan olur. Belə sorğular zamanı üçüncü tərəf xidməti texniki olaraq cihazınızın IP ünvanını görür – istənilən sayta daxil olduğunuz kimi. Bu xidmətlərə sizin haqqınızda heç bir məlumat vermirəm.
+
+- [api.weatherapi.com](https://www.weatherapi.com/privacy.aspx), [api.open-meteo.com](https://open-meteo.com/en/terms) – seçilmiş yerin koordinatlarına görə hava və proqnoz;
+- [api.quran.com](https://quran.com/privacy), [cdn.jsdelivr.net](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net) – Quran mənalarının tərcümələri və köməkçi məlumatlar;
+- [everyayah.com](https://everyayah.com) – Quranın audio qiraəti;
+- [hadeethenc.com](https://hadeethenc.com) – hədis mənbəyi göstərilən dua və əzkar mətnləri;
+- [images.unsplash.com](https://unsplash.com/privacy) – dizayn üçün fon şəkilləri.
+
+Bu xidmətlər müstəqil təşkilatlar tərəfindən idarə olunur və öz məxfilik siyasətlərinə tabedir. Tətbiq quraşdırma və yeniləmələr üçün Google Play xidmətlərindən də istifadə edə bilər.
+
+## Bildirişlər
+
+Azan, namaz vaxtı xatırlatmaları və mühüm günlərin yaxınlaşması barədə bildirişlər cihazda yerli yaradılır. Serverdən göndərilən push bildirişlərindən istifadə etmirəm. Onları tətbiq və ya sistem ayarlarından söndürmək olar.
+
+## Uşaqlar
+
+Tətbiq bütün yaşlar üçün uyğundur və uşaqlar da daxil olmaqla heç kimdən şəxsi məlumat toplamır.
+
+## Hüquqlarınız
+
+Məlumatlarınızı saxlamadığım üçün sorğunuza əsasən sizə verə və ya silə biləcəyim heç nə yoxdur. Bütün tətbiq məlumatlarını silmək üçün onu cihazdan çıxarın və ya sistem ayarlarında tətbiqin məlumatlarını təmizləyin. Məkan icazəsini istənilən vaxt telefon ayarlarından geri ala bilərsiniz.
+
+## Siyasətdəki dəyişikliklər
+
+Tətbiqin davranışı dəyişərsə, bu səhifəni yeniləyəcəyəm. Əhəmiyyətli dəyişikliklər tətbiq mağazasındakı yeniləmə qeydlərində göstəriləcək.
+
+## Mənimlə əlaqə
+
+Məxfiliklə bağlı sualları, iradları və təklifləri bu ünvana göndərin: [yi.mutawir@gmail.com](mailto:yi.mutawir@gmail.com)
+
+Hər məktuba cavab verirəm.
