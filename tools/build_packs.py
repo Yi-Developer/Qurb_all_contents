@@ -33,7 +33,7 @@ import os
 import sqlite3
 import sys
 
-PACK_VERSION = 8
+PACK_VERSION = 9
 CONTENT_TAG = 'main'
 
 LANGS = {
