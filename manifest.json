@@ -1,6 +1,6 @@
 {
   "format": "Qurb SQLite language packs",
-  "version": 11,
+  "version": 12,
   "description": "Один SQLite-файл на язык. Ресурсы внутри хранятся как gzip BLOB для компактности.",
   "languages": {
     "ar": {

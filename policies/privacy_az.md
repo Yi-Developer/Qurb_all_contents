@@ -4,9 +4,9 @@ Qurb şəxsi məlumatlarınızı toplamır, reklam göstərmir və məlumatları
 
 Bu siyasət Qurb tətbiqinin («tətbiq») məlumatlarla necə davrandığını izah edir. Tətbiqdən istifadə etməklə aşağıdakı şərtləri qəbul edirsiniz.
 
-## Hansı məlumatları toplamırıq
+## Hansı məlumatları toplamıram
 
-Qeydiyyat tələb etmirik və hesab yaratmırıq. Tətbiq aşağıdakıları toplamır və bizə göndərmir:
+Qeydiyyat tələb etmirəm və hesab yaratmıram. Tətbiq aşağıdakıları toplamır və mənə göndərmir:
 
 • ad, e-poçt ünvanı, telefon nömrəsi;
 • kontaktlar, şəkillər, fayllar, təqvim;
@@ -23,11 +23,11 @@ Tətbiq məkan icazəsini yalnız bir məqsədlə istəyir: namaz vaxtlarını v
 • Qiblə istiqaməti koordinatlar və kompas məlumatları əsasında cihazda hesablanır.
 • Şəhərinizin adını göstərmək üçün tətbiq telefonunuzun sistem geokoderinə (Google və ya Apple xidməti) müraciət edir. Bu zaman koordinatlar əməliyyat sistemi tərəfindən öz tərtibatçısının siyasətinə uyğun emal olunur. Şəbəkə olmadıqda şəhər adı tətbiqə daxil edilmiş şəhər bazasından oflayn seçilir.
 
-Məkanınız yalnız cihazınızın yaddaşında saxlanılır. Onu saxlaya biləcək serverlərimiz yoxdur.
+Məkanınız yalnız cihazınızın yaddaşında saxlanılır. Onu saxlaya biləcək serverlərim yoxdur.
 
 ## Cihazınızdakı məlumatlar
 
-Əlfəcinlər, şəxsi qeydlər, seçilmiş dualar və əzkarlar, təkrar sayğacları, seçdiyiniz dil, tema və şrift ayarları cihazda yerli saxlanılır. Onlar telefonu tərk etmir və tətbiqlə birlikdə silinir. Bizim onlara girişimiz yoxdur və onları bərpa edə bilmərik.
+Əlfəcinlər, şəxsi qeydlər, seçilmiş dualar və əzkarlar, təkrar sayğacları, seçdiyiniz dil, tema və şrift ayarları cihazda yerli saxlanılır. Onlar telefonu tərk etmir və tətbiqlə birlikdə silinir. Mənim onlara girişim yoxdur və onları bərpa edə bilmərəm.
 
 ## Hava
 
@@ -35,7 +35,7 @@ Məkanınız yalnız cihazınızın yaddaşında saxlanılır. Onu saxlaya bilə
 
 ## Şəbəkə sorğuları və üçüncü tərəf xidmətləri
 
-Quranın ərəbcə mətni, dualar və namaz vaxtları oflayn işləyir. İnternet yalnız əlavə materialları yükləmək üçün lazımdır; yükləndikdən sonra onlar da şəbəkəsiz əlçatan olur. Belə sorğular zamanı üçüncü tərəf xidməti texniki olaraq cihazınızın IP ünvanını görür — istənilən sayta daxil olduğunuz kimi. Bu xidmətlərə sizin haqqınızda heç bir məlumat vermirik.
+Quranın ərəbcə mətni, dualar və namaz vaxtları oflayn işləyir. İnternet yalnız əlavə materialları yükləmək üçün lazımdır; yükləndikdən sonra onlar da şəbəkəsiz əlçatan olur. Belə sorğular zamanı üçüncü tərəf xidməti texniki olaraq cihazınızın IP ünvanını görür — istənilən sayta daxil olduğunuz kimi. Bu xidmətlərə sizin haqqınızda heç bir məlumat vermirəm.
 
 • api.weatherapi.com, api.open-meteo.com — seçilmiş yerin koordinatlarına görə hava və proqnoz;
 • api.quran.com, cdn.jsdelivr.net — Quran mənalarının tərcümələri və köməkçi məlumatlar;
@@ -47,7 +47,7 @@ Bu xidmətlər müstəqil təşkilatlar tərəfindən idarə olunur və öz məx
 
 ## Bildirişlər
 
-Azan, namaz vaxtı xatırlatmaları və mühüm günlərin yaxınlaşması barədə bildirişlər cihazda yerli yaradılır. Serverdən göndərilən push bildirişlərindən istifadə etmirik. Onları tətbiq və ya sistem ayarlarından söndürmək olar.
+Azan, namaz vaxtı xatırlatmaları və mühüm günlərin yaxınlaşması barədə bildirişlər cihazda yerli yaradılır. Serverdən göndərilən push bildirişlərindən istifadə etmirəm. Onları tətbiq və ya sistem ayarlarından söndürmək olar.
 
 ## Uşaqlar
 
@@ -55,14 +55,14 @@ Tətbiq bütün yaşlar üçün uyğundur və uşaqlar da daxil olmaqla heç kim
 
 ## Hüquqlarınız
 
-Məlumatlarınızı saxlamadığımız üçün sorğunuza əsasən sizə verə və ya silə biləcəyimiz heç nə yoxdur. Bütün tətbiq məlumatlarını silmək üçün onu cihazdan çıxarın və ya sistem ayarlarında tətbiqin məlumatlarını təmizləyin. Məkan icazəsini istənilən vaxt telefon ayarlarından geri ala bilərsiniz.
+Məlumatlarınızı saxlamadığım üçün sorğunuza əsasən sizə verə və ya silə biləcəyim heç nə yoxdur. Bütün tətbiq məlumatlarını silmək üçün onu cihazdan çıxarın və ya sistem ayarlarında tətbiqin məlumatlarını təmizləyin. Məkan icazəsini istənilən vaxt telefon ayarlarından geri ala bilərsiniz.
 
 ## Siyasətdəki dəyişikliklər
 
-Tətbiqin davranışı dəyişərsə, bu səhifəni yeniləyəcəyik. Əhəmiyyətli dəyişikliklər tətbiq mağazasındakı yeniləmə qeydlərində göstəriləcək.
+Tətbiqin davranışı dəyişərsə, bu səhifəni yeniləyəcəyəm. Əhəmiyyətli dəyişikliklər tətbiq mağazasındakı yeniləmə qeydlərində göstəriləcək.
 
-## Bizimlə əlaqə
+## Mənimlə əlaqə
 
 Məxfiliklə bağlı sualları, iradları və təklifləri bu ünvana göndərin: yi.mutawir@gmail.com
 
-Hər məktuba cavab veririk.
+Hər məktuba cavab verirəm.

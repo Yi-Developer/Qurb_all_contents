@@ -4,9 +4,9 @@ Qurb shaxsiy maʼlumotlaringizni yigʻmaydi, reklama koʻrsatmaydi va axborotni 
 
 Ushbu siyosat Qurb ilovasi («ilova») axborot bilan qanday ishlashini tushuntiradi. Ilovadan foydalanish orqali siz quyidagi shartlarni qabul qilasiz.
 
-## Biz qanday maʼlumotlarni yigʻmaymiz
+## Men qanday maʼlumotlarni yigʻmayman
 
-Biz roʻyxatdan oʻtishni talab qilmaymiz va hisob yaratmaymiz. Ilova quyidagilarni yigʻmaydi va bizga yubormaydi:
+Men roʻyxatdan oʻtishni talab qilmayman va hisob yaratmayman. Ilova quyidagilarni yigʻmaydi va menga yubormaydi:
 
 • ism, elektron pochta manzili, telefon raqami;
 • kontaktlar, suratlar, fayllar, taqvim;
@@ -23,11 +23,11 @@ Ilova joylashuvga ruxsatni yagona maqsad uchun soʻraydi: namoz vaqtlari va qibl
 • Qibla yoʻnalishi koordinatalar va kompas maʼlumotlari asosida qurilmada hisoblanadi.
 • Shahringiz nomini koʻrsatish uchun ilova telefoningizning tizim geokoderiga (Google yoki Apple xizmati) murojaat qiladi. Shu payt koordinatalar operatsion tizim tomonidan oʻz ishlab chiquvchisining siyosatiga muvofiq qayta ishlanadi. Tarmoq boʻlmasa, shahar nomi ilovaga oʻrnatilgan shaharlar bazasidan oflayn tanlanadi.
 
-Joylashuvingiz faqat qurilmangiz xotirasida saqlanadi. Uni saqlaydigan serverlarimiz yoʻq.
+Joylashuvingiz faqat qurilmangiz xotirasida saqlanadi. Uni saqlaydigan serverlarim yoʻq.
 
 ## Qurilmangizdagi maʼlumotlar
 
-Xatcho‘plar, shaxsiy eslatmalar, sevimli duolar va azkorlar, takrorlash hisoblagichlari, tanlangan til, mavzu va shrift sozlamalari mahalliy saqlanadi. Ular telefondan chiqmaydi va ilova bilan birga oʻchiriladi. Bizda ularga kirish imkoni yoʻq va ularni tiklay olmaymiz.
+Xatcho‘plar, shaxsiy eslatmalar, sevimli duolar va azkorlar, takrorlash hisoblagichlari, tanlangan til, mavzu va shrift sozlamalari mahalliy saqlanadi. Ular telefondan chiqmaydi va ilova bilan birga oʻchiriladi. Menda ularga kirish imkoni yoʻq va ularni tiklay olmayman.
 
 ## Ob-havo
 
@@ -35,7 +35,7 @@ Asosiy ekranda ob-havo yoki prognozni ochsangiz, ilova joriy holat va prognozni 
 
 ## Tarmoq soʻrovlari va uchinchi tomon xizmatlari
 
-Qurʼonning arabcha matni, duolar va namoz vaqtlari oflayn ishlaydi. Internet faqat qoʻshimcha materiallarni yuklab olish uchun kerak; shundan soʻng ular ham tarmoqsiz mavjud boʻladi. Bunday soʻrovlarda uchinchi tomon xizmati texnik jihatdan qurilmangiz IP-manzilini koʻradi — xuddi har qanday saytni ochgandagi kabi. Biz bu xizmatlarga siz haqingizda hech qanday maʼlumot bermaymiz.
+Qurʼonning arabcha matni, duolar va namoz vaqtlari oflayn ishlaydi. Internet faqat qoʻshimcha materiallarni yuklab olish uchun kerak; shundan soʻng ular ham tarmoqsiz mavjud boʻladi. Bunday soʻrovlarda uchinchi tomon xizmati texnik jihatdan qurilmangiz IP-manzilini koʻradi — xuddi har qanday saytni ochgandagi kabi. Men bu xizmatlarga siz haqingizda hech qanday maʼlumot bermayman.
 
 • api.weatherapi.com, api.open-meteo.com — tanlangan joy koordinatalari bo‘yicha ob-havo va prognoz;
 • api.quran.com, cdn.jsdelivr.net — Qurʼon maʼnolari tarjimalari va yordamchi maʼlumotlar;
@@ -47,7 +47,7 @@ Bu xizmatlar mustaqil tashkilotlar tomonidan boshqariladi va oʻz maxfiylik siyo
 
 ## Bildirishnomalar
 
-Azon, namoz vaqti eslatmalari va muhim sanalar yaqinlashgani haqidagi ogohlantirishlar qurilmada mahalliy yaratiladi. Biz serverdan yuboriladigan push-bildirishnomalardan foydalanmaymiz. Ularni ilova yoki tizim sozlamalaridan oʻchirish mumkin.
+Azon, namoz vaqti eslatmalari va muhim sanalar yaqinlashgani haqidagi ogohlantirishlar qurilmada mahalliy yaratiladi. Men serverdan yuboriladigan push-bildirishnomalardan foydalanmayman. Ularni ilova yoki tizim sozlamalaridan oʻchirish mumkin.
 
 ## Bolalar
 
@@ -55,14 +55,14 @@ Ilova har qanday yosh uchun mos va hech kimdan, jumladan bolalardan ham, shaxsiy
 
 ## Sizning huquqlaringiz
 
-Biz maʼlumotlaringizni saqlamaganimiz uchun soʻrov boʻyicha topshiradigan yoki oʻchiradigan narsamiz yoʻq. Ilovaning barcha maʼlumotlarini oʻchirish uchun uni qurilmadan olib tashlang yoki tizim sozlamalarida ilova maʼlumotlarini tozalang. Joylashuvga ruxsatni istalgan vaqtda telefon sozlamalaridan qaytarib olishingiz mumkin.
+Men maʼlumotlaringizni saqlamaganim uchun soʻrov boʻyicha topshiradigan yoki oʻchiradigan narsam yoʻq. Ilovaning barcha maʼlumotlarini oʻchirish uchun uni qurilmadan olib tashlang yoki tizim sozlamalarida ilova maʼlumotlarini tozalang. Joylashuvga ruxsatni istalgan vaqtda telefon sozlamalaridan qaytarib olishingiz mumkin.
 
 ## Siyosatdagi oʻzgarishlar
 
-Agar ilovaning ishlashi oʻzgarsa, biz ushbu sahifani yangilaymiz. Jiddiy oʻzgarishlar ilovalar doʻkonidagi yangilanish tavsifida qayd etiladi.
+Agar ilovaning ishlashi oʻzgarsa, men ushbu sahifani yangilayman. Jiddiy oʻzgarishlar ilovalar doʻkonidagi yangilanish tavsifida qayd etiladi.
 
-## Biz bilan bogʻlanish
+## Men bilan bogʻlanish
 
 Maxfiylik boʻyicha savollar, izohlar va takliflarni quyidagi manzilga yuboring: yi.mutawir@gmail.com
 
-Biz har bir xatga javob beramiz.
+Men har bir xatga javob beraman.
