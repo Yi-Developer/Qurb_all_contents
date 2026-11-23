@@ -1,5 +1,9 @@
 Qurb · языковой пакет: Японский язык (ja)
+<<<<<<< HEAD
 Файл: translations_ja.db  ·  1.25 МБ
+=======
+Файл: translations_ja.db  ·  1.26 МБ
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
 Версия пакета: 9  ·  тег контента: main
 
 Внутри (SQLite, данные — gzip):

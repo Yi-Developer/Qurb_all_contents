@@ -9,7 +9,11 @@
       "resources": 8,
       "builtin_sections": 1,
       "size_bytes": 1034240,
+<<<<<<< HEAD
       "dua_entries": 241,
+=======
+      "dua_entries": 271,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1579,
@@ -23,8 +27,17 @@
       "database": "Английский язык/translations_en.db",
       "resources": 11,
       "builtin_sections": 0,
+<<<<<<< HEAD
       "size_bytes": 1784832,
       "dua_entries": 246,
+=======
+<<<<<<< HEAD
+      "size_bytes": 1785856,
+=======
+      "size_bytes": 1786880,
+>>>>>>> 143fcbc7462f06889be5339c612795718c87a9a5
+      "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1739,
@@ -42,8 +55,13 @@
       "database": "Русский язык/translations_ru.db",
       "resources": 11,
       "builtin_sections": 0,
+<<<<<<< HEAD
       "size_bytes": 2160640,
       "dua_entries": 246,
+=======
+      "size_bytes": 2162688,
+      "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1348,
@@ -60,8 +78,17 @@
       "database": "Казахский язык/translations_kk.db",
       "resources": 10,
       "builtin_sections": 0,
+<<<<<<< HEAD
       "size_bytes": 1436672,
       "dua_entries": 246,
+=======
+<<<<<<< HEAD
+      "size_bytes": 1438720,
+=======
+      "size_bytes": 1437696,
+>>>>>>> 143fcbc7462f06889be5339c612795718c87a9a5
+      "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1348,
@@ -77,8 +104,17 @@
       "database": "Кыргызский язык/translations_ky.db",
       "resources": 10,
       "builtin_sections": 0,
+<<<<<<< HEAD
       "size_bytes": 1531904,
       "dua_entries": 246,
+=======
+<<<<<<< HEAD
+      "size_bytes": 1533952,
+=======
+      "size_bytes": 1532928,
+>>>>>>> 143fcbc7462f06889be5339c612795718c87a9a5
+      "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1309,
@@ -94,8 +130,13 @@
       "database": "Азербайджанский язык/translations_az.db",
       "resources": 9,
       "builtin_sections": 0,
+<<<<<<< HEAD
       "size_bytes": 1162240,
       "dua_entries": 246,
+=======
+      "size_bytes": 1164288,
+      "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1309,
@@ -111,8 +152,13 @@
       "database": "Узбекский язык/translations_uz.db",
       "resources": 10,
       "builtin_sections": 0,
+<<<<<<< HEAD
       "size_bytes": 1852416,
       "dua_entries": 246,
+=======
+      "size_bytes": 1853440,
+      "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1324,
@@ -129,8 +175,17 @@
       "database": "Таджикский язык/translations_tg.db",
       "resources": 10,
       "builtin_sections": 0,
+<<<<<<< HEAD
       "size_bytes": 1522688,
       "dua_entries": 246,
+=======
+<<<<<<< HEAD
+      "size_bytes": 1524736,
+=======
+      "size_bytes": 1523712,
+>>>>>>> 143fcbc7462f06889be5339c612795718c87a9a5
+      "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1309,
@@ -146,8 +201,17 @@
       "database": "Турецкий язык/translations_tr.db",
       "resources": 11,
       "builtin_sections": 0,
+<<<<<<< HEAD
       "size_bytes": 1778688,
       "dua_entries": 246,
+=======
+<<<<<<< HEAD
+      "size_bytes": 1780736,
+=======
+      "size_bytes": 1778688,
+>>>>>>> 143fcbc7462f06889be5339c612795718c87a9a5
+      "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1348,
@@ -165,8 +229,13 @@
       "database": "Японский язык/translations_ja.db",
       "resources": 9,
       "builtin_sections": 0,
+<<<<<<< HEAD
       "size_bytes": 1315840,
       "dua_entries": 246,
+=======
+      "size_bytes": 1317888,
+      "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1309,
@@ -182,8 +251,13 @@
       "database": "Корейский язык/translations_ko.db",
       "resources": 10,
       "builtin_sections": 0,
+<<<<<<< HEAD
       "size_bytes": 1624064,
       "dua_entries": 246,
+=======
+      "size_bytes": 1626112,
+      "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
       "geo_countries": 244,
       "geo_cities": 15090,
       "system_strings": 1309,
@@ -198,7 +272,11 @@
   },
   "dua_version": "hisn_al_muslim_132",
   "dua_categories": 14,
+<<<<<<< HEAD
   "dua_entries": 246,
+=======
+  "dua_entries": 277,
+>>>>>>> d1cc76aff930b65e92ad16b044043d8b055d054d
   "geo_version": 1,
   "geo_country_count": 244,
   "geo_city_count": 15090,
