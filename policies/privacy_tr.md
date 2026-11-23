@@ -59,12 +59,10 @@ Verilerinizi saklamadığımız için, talebiniz üzerine size verebileceğimiz 
 
 ## Politikadaki değişiklikler
 
-Uygulamanın davranışı değişirse bu sayfayı ve yukarıdaki yürürlük tarihini güncelleriz. Önemli değişiklikler, uygulama mağazasındaki sürüm notlarında belirtilir.
+Uygulamanın davranışı değişirse bu sayfayı güncelleriz. Önemli değişiklikler, uygulama mağazasındaki sürüm notlarında belirtilir.
 
 ## Bize ulaşın
 
 Gizlilikle ilgili sorularınızı, düzeltmelerinizi ve önerilerinizi şu adrese gönderin: yi.mutawir@gmail.com
 
 Her mesaja yanıt veriyoruz.
-
-_Yürürlük tarihi: 10 Temmuz 2026_

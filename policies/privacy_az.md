@@ -59,12 +59,10 @@ Məlumatlarınızı saxlamadığımız üçün sorğunuza əsasən sizə verə v
 
 ## Siyasətdəki dəyişikliklər
 
-Tətbiqin davranışı dəyişərsə, bu səhifəni və yuxarıdakı qüvvəyəminmə tarixini yeniləyəcəyik. Əhəmiyyətli dəyişikliklər tətbiq mağazasındakı yeniləmə qeydlərində göstəriləcək.
+Tətbiqin davranışı dəyişərsə, bu səhifəni yeniləyəcəyik. Əhəmiyyətli dəyişikliklər tətbiq mağazasındakı yeniləmə qeydlərində göstəriləcək.
 
 ## Bizimlə əlaqə
 
 Məxfiliklə bağlı sualları, iradları və təklifləri bu ünvana göndərin: yi.mutawir@gmail.com
 
 Hər məktuba cavab veririk.
-
-_Qüvvəyə minmə tarixi: 10 iyul 2026_

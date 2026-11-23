@@ -1,9 +1,9 @@
 Qurb · языковой пакет: Турецкий язык (tr)
 Файл: translations_tr.db  ·  1.71 МБ
-Версия пакета: 9  ·  тег контента: main
+Версия пакета: 10  ·  тег контента: main
 
 Внутри (SQLite, данные — gzip):
-  system     — строки интерфейса: 1351 (экраны v114: 367, названия сур: 114)
+  system     — строки интерфейса: 1352 (экраны v114: 368, названия сур: 114)
   quran      — переводы Корана: t_turkish_rwwad.json, t_turkish_shaban.json, t_turkish_shahin.json
   dua, azkar (азкары, утро и вечер, хадисы), names99, holidays,
   policies — тексты разделов

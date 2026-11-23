@@ -59,12 +59,10 @@ Because we hold none of your data, there is nothing for us to hand over or delet
 
 ## Changes to this policy
 
-If the app’s behaviour changes, we will update this page and the effective date above. Material changes will be noted in the release notes on the app store.
+If the app’s behaviour changes, we will update this page. Material changes will be noted in the release notes on the app store.
 
 ## Contact us
 
 Send privacy questions, corrections, or suggestions to yi.mutawir@gmail.com
 
 We reply to every message.
-
-_Effective date: 10 July 2026_

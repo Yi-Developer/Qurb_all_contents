@@ -1,9 +1,9 @@
 Qurb · языковой пакет: Английский язык (en)
 Файл: translations_en.db  ·  1.71 МБ
-Версия пакета: 9  ·  тег контента: main
+Версия пакета: 10  ·  тег контента: main
 
 Внутри (SQLite, данные — gzip):
-  system     — строки интерфейса: 1742 (экраны v114: 367, названия сур: 114)
+  system     — строки интерфейса: 1743 (экраны v114: 368, названия сур: 114)
   quran      — переводы Корана: t_english_hilali_khan.json, t_english_rwwad.json, t_english_saheeh.json
   dua, azkar (азкары, утро и вечер, хадисы), names99, holidays,
   policies — тексты разделов

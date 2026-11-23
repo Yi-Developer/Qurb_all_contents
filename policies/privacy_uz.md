@@ -59,12 +59,10 @@ Biz maʼlumotlaringizni saqlamaganimiz uchun soʻrov boʻyicha topshiradigan yok
 
 ## Siyosatdagi oʻzgarishlar
 
-Agar ilovaning ishlashi oʻzgarsa, biz ushbu sahifani va yuqoridagi kuchga kirish sanasini yangilaymiz. Jiddiy oʻzgarishlar ilovalar doʻkonidagi yangilanish tavsifida qayd etiladi.
+Agar ilovaning ishlashi oʻzgarsa, biz ushbu sahifani yangilaymiz. Jiddiy oʻzgarishlar ilovalar doʻkonidagi yangilanish tavsifida qayd etiladi.
 
 ## Biz bilan bogʻlanish
 
 Maxfiylik boʻyicha savollar, izohlar va takliflarni quyidagi manzilga yuboring: yi.mutawir@gmail.com
 
 Biz har bir xatga javob beramiz.
-
-_Kuchga kirish sanasi: 2026-yil 10-iyul_
